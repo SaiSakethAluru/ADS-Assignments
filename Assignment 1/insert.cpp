@@ -46,6 +46,117 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         }    
         else{
             // TODO split node
+
+            // PickSeeds
+
+            RTreeNode* inserted_node = new RTreeNode(this->m,this->M,this->n);
+            inserted_node->bounds = new_bounds;
+            node->pointers.push_back(inserted_node);
+            vector<RTreeNode*> pointers1;
+            vector<RTreeNode*> pointers2;
+            vector<pair<int,int> > bounds1;
+            vector<pair<int,int> > bounds2;
+            double max_empty_area = INT_MIN;
+            int max_empty_area_node1, max_empty_area_node2;
+
+            for(int i=0;i<M;i++){
+                for(int j=i+1;j<M+1;j++){
+                    vector<pair<int,int> > mbr(node->n);
+                    for(int k=0;k<node->n;k++){
+                        mbr[k].first = min(node->pointers[i]->bounds[k].first,node->pointers[j]->bounds[k].first);
+                        mbr[k].second = max(node->pointers[i]->bounds[k].second,node->pointers[j]->bounds[k].second);
+                    }
+                    double empty_area = calculate_area(mbr) - calculate_area(node->pointers[i]->bounds) - calculate_area(node->pointers[j]->bounds);
+                    if(empty_area>max_empty_area){
+                        max_empty_area = empty_area;
+                        max_empty_area_node1 = i;
+                        max_empty_area_node2 = j;
+                    }
+                }
+            }
+            pointers1.push_back(node->pointers[max_empty_area_node1]);
+            pointers2.push_back(node->pointers[max_empty_area_node2]);
+            bounds1 = node->pointers[max_empty_area_node1]->bounds;
+            bounds2 = node->pointers[max_empty_area_node2]->bounds;
+            vector<bool> erased(node->pointers.size(),false);
+            int erase_left = node->pointers.size();
+            // node->pointers.erase(max_empty_area_node1);
+            // node->pointers.erase(max_empty_area_node2-1);
+            erased[max_empty_area_node1] = true;
+            erased[max_empty_area_node2] = true;
+            erase_left -= 2;
+            // PickNext
+
+            while(erase_left>0){
+                // If neither splits are full
+                // if(pointers1.size()<node->m+1 && pointers2.size()<node->m+1){
+                if(pointers1.size() + erase_left > node->m && pointers2.size() + erase_left > node->m){
+                    double max_area_diff = INT_MIN;
+                    int max_area_diff_node,favored_split;
+                    for(int i=0;i<node->pointers.size();i++){
+                        if(erased[i])
+                            continue;
+                        pair<double,double> first_split_diff = calculate_area_diff(bounds1,node->pointers[i]->bounds);
+                        pair<double,double> second_split_diff = calculate_area_diff(bounds2,node->pointers[i]->bounds);
+                        if(abs(first_split_diff.first - second_split_diff.first) > max_area_diff){
+                            max_area_diff = abs(first_split_diff.first - second_split_diff.first);
+                            max_area_diff_node = i;
+                            favored_split = (first_split_diff.first > second_split_diff.first?2:1);
+                        }
+                    }
+                    if(favored_split==1){
+                        pointers1.push_back(node->pointers[max_area_diff_node]);
+                        for(int i=0;i<node->n;i++){
+                            bounds1[i].first = min(bounds1[i].first, node->pointers[max_area_diff_node]->bounds[i].first);
+                            bounds1[i].second = max(bounds1[i].second, node->pointers[max_area_diff_node]->bounds[i].second);
+                        }
+                    }
+                    else{
+                        pointers2.push_back(node->pointers[max_area_diff_node]);
+                        for(int i=0;i<node->n;i++){
+                            bounds2[i].first = min(bounds2[i].first, node->pointers[max_area_diff_node]->bounds[i].first);
+                            bounds2[i].second = max(bounds2[i].second, node->pointers[max_area_diff_node]->bounds[i].second);
+                        }
+                    }
+                    erased[max_area_diff_node] = true;
+                    erase_left--;
+                }
+                // one of the split is full
+                else{
+                    if(pointers1.size()> node->m && pointers2.size() + erase_left ==node->m){
+                        for(int i=0;i<node->pointers.size();i++){
+                            if(erased[i])
+                                continue;
+                            pointers2.push_back(node->pointers[i]);
+                            for(int j=0;j<node->n;j++){
+                                bounds2[j].first = min(bounds2[j].first, node->pointers[i]->bounds[j].first);
+                                bounds2[j].second = max(bounds2[j].second, node->pointers[i]->bounds[j].second);
+                            }
+                        }
+                    }
+                    else if(pointers2.size() > node->m && pointers1.size() + erase_left ==node->m){
+                        for(int i=0;i<node->pointers.size();i++){
+                            pointers1.push_back(node->pointers[i]);
+                            for(int j=0;j<node->n;j++){
+                                bounds1[j].first = min(bounds1[j].first, node->pointers[i]->bounds[j].first);
+                                bounds1[j].second = max(bounds1[j].second, node->pointers[i]->bounds[j].second);
+                            }
+                        }
+                    }
+                    node->pointers.clear();
+                    break;
+                }
+            }
+            node->pointers = pointers1;
+            node->bounds = bounds1;
+            node->num_entries = pointers1.size();
+            RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            new_node->pointers = pointers2;
+            new_node->bounds = bounds2;
+            new_node->num_entries = pointers2.size();
+            // new_node->isLeaf = false;
+            new_node->isLeaf = node->isLeaf;
+            return new_node;
         }
     }
     else{
