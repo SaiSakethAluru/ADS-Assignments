@@ -10,6 +10,7 @@ class RTreeNode
 {
 public:
     vector<RTreeNode*> pointers;
+    int node_id;
     int num_entries;
     bool isLeaf;
     int m;
@@ -25,12 +26,14 @@ public:
 
 RTreeNode::RTreeNode(int m, int M, int n)
 {
+    static int id = 0;
     this->m = m;
     this->M = M;
     this->n = n;
     pointers = vector<RTreeNode*>(M,nullptr);
     isLeaf = true;
     num_entries = 0;
+    node_id = id++;
 }
 
 RTreeNode::~RTreeNode()
@@ -56,11 +59,13 @@ public:
     int n;
     int M;
     int m;
+    int num_nodes;
 // public:
     RTree(int n);
     ~RTree();
     void insert(string filename);
     RTreeNode* insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds);
+    void save(string filename);
 };
 
 RTree::RTree(int n)
@@ -69,6 +74,7 @@ RTree::RTree(int n)
     this->root = nullptr;
     this->M = 4096/(4*n+1);
     this->m = this->M/2;
+    this->num_nodes = 0;
 }
 
 RTree::~RTree()

@@ -12,6 +12,7 @@ void RTree::insert(string filename)
         }
         if(this->root == nullptr){
             this->root = new RTreeNode(this->m,this->M,this->n);
+            this->num_nodes++;
         }
         RTreeNode* new_child = insertRect(this->root,new_bounds);
         if(new_child==nullptr){
@@ -19,6 +20,7 @@ void RTree::insert(string filename)
         }
         else{
             RTreeNode* new_root = new RTreeNode(this->m,this->M,this->n);
+            this->num_nodes++;
             new_root->isLeaf=false;
             new_root->pointers[0] = this->root;
             new_root->pointers[1] = new_child;
@@ -32,13 +34,15 @@ void RTree::insert(string filename)
         if(data_file.eof())
             break;
     }
-    // save_tree();
+    this->save("RTree.txt");
+
 }
 
 RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds){
     if(node->isLeaf){
         if(node->num_entries < node-> M){
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            this->num_nodes++;
             new_node->bounds = new_bounds;
             node->pointers[node->num_entries] = new_node;
             node->num_entries++;
@@ -50,6 +54,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             // PickSeeds
 
             RTreeNode* inserted_node = new RTreeNode(this->m,this->M,this->n);
+            this->num_nodes++;
             inserted_node->bounds = new_bounds;
             node->pointers.push_back(inserted_node);
             vector<RTreeNode*> pointers1;
@@ -151,6 +156,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             node->bounds = bounds1;
             node->num_entries = pointers1.size();
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            this->num_nodes++;
             new_node->pointers = pointers2;
             new_node->bounds = bounds2;
             new_node->num_entries = pointers2.size();
@@ -326,4 +332,48 @@ double calculate_area(vector<pair<int,int> > &bounds){
         log_area += log(bounds[i].second-bounds[i].first); 
     }
     return log_area;
+}
+
+
+void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id)
+{
+    parent[node->node_id] = par_id;
+    if(!node->isLeaf){
+        for(int i=0;i<node->num_entries;i++){
+            traverse_tree(node->pointers[i],parent,node->node_id);
+        }
+    }
+}
+void print_node(RTreeNode* node, fstream &f)
+{
+    f<<node->node_id<<" ";
+    f<<node->num_entries<<" ";
+    f<<(int)node->isLeaf<<" ";
+    // f<<node->bounds.size()<<" ";
+    for(int i=0;i<node->bounds.size();i++){
+        f<<node->bounds[i].first<<" "<<node->bounds[i].second<<" ";
+    }
+    f<<endl;
+}
+
+void print_rec(RTreeNode* node, fstream &f)
+{
+    print_node(node,f);
+    if(!node->isLeaf){
+        for(int i=0;i<node->num_entries;i++){
+            print_rec(node->pointers[i],f);
+        }
+    }
+}
+void RTree::save(string filename)
+{
+    fstream f(filename);
+    f<<this->num_nodes<<endl;
+    vector<int> parent(this->num_nodes);
+    traverse_tree(this->root,parent,-1);
+    for(int i=0;i<parent.size();i++){
+        f<<parent[i]<<' ';
+    }
+    f<<endl;
+    print_rec(this->root,f);
 }
