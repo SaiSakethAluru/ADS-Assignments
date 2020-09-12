@@ -55,6 +55,6 @@ int main()
     RTree* Tree; // The tree made after reading from input
     int M = Tree->M;
     vector<pair<int,int>> region; // The region to be searched
-    RTreeNode* node = search(Tree->head,region,M);
+    RTreeNode* node = search(Tree->root,region,M);
     return 0;
 }
