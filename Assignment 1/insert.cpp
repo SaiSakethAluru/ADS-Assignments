@@ -1,25 +1,37 @@
 #include "RTree.h"
 #include <fstream>
 
+pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vector<pair<int,int> > &new_bounds);
+double calculate_area(vector<pair<int,int> > &bounds);
+void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id);
+void print_node(RTreeNode* node, fstream &f);
+void print_rec(RTreeNode* node, fstream &f);
+
 void RTree::insert(string in_filename,string out_filename)
 {
     fstream data_file(in_filename);
-    vector<pair<int,int> > new_bounds;
+    vector<pair<int,int> > new_bounds(this->n);
+    int read_lines = 0;
     while(true){
-        for(int i=0;i<n;i++){
+        if(read_lines>0 && read_lines%1000==0)
+            cerr<<read_lines<<endl;
+        for(int i=0;i<this->n;i++){
             data_file >> new_bounds[i].first;
             data_file >> new_bounds[i].second;
         }
         if(this->root == nullptr){
             this->root = new RTreeNode(this->m,this->M,this->n);
             this->num_nodes++;
+            // cerr<<"Created root"<<endl;
         }
         RTreeNode* new_child = insertRect(this->root,new_bounds);
         if(new_child==nullptr){
             // nothing to do?
+            // cerr<<"root not split"<<endl;
         }
         else{
             RTreeNode* new_root = new RTreeNode(this->m,this->M,this->n);
+            // cerr<<"root split"<<endl;
             this->num_nodes++;
             new_root->isLeaf=false;
             new_root->pointers[0] = this->root;
@@ -38,9 +50,12 @@ void RTree::insert(string in_filename,string out_filename)
 
 }
 
-RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds){
+RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds)
+{
+    // cerr<<"Insert rect"<<endl;
     if(node->isLeaf){
         if(node->num_entries < node-> M){
+            // cerr<<"Leaf not full"<<endl;
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
             this->num_nodes++;
             new_node->bounds = new_bounds;
@@ -52,7 +67,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             // TODO split node
 
             // PickSeeds
-
+            // cerr<<"Leaf full, split"<<endl;
             RTreeNode* inserted_node = new RTreeNode(this->m,this->M,this->n);
             this->num_nodes++;
             inserted_node->bounds = new_bounds;
@@ -63,7 +78,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             vector<pair<int,int> > bounds2;
             double max_empty_area = INT_MIN;
             int max_empty_area_node1, max_empty_area_node2;
-
+            // cerr<<node->pointers.size()<<" "<<node->M;
             for(int i=0;i<M;i++){
                 for(int j=i+1;j<M+1;j++){
                     vector<pair<int,int> > mbr(node->n);
@@ -79,6 +94,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                     }
                 }
             }
+            // cerr<<"seeds selected"<<endl;
             pointers1.push_back(node->pointers[max_empty_area_node1]);
             pointers2.push_back(node->pointers[max_empty_area_node2]);
             bounds1 = node->pointers[max_empty_area_node1]->bounds;
@@ -152,16 +168,26 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                     break;
                 }
             }
-            node->pointers = pointers1;
+            // cerr<<"after split  "<<pointers1.size()<<" "<<pointers2.size()<<endl;
+            // node->pointers = pointers1;
+            node->pointers = vector<RTreeNode*> (M,nullptr);
+            for(int i=0;i<pointers1.size();i++){
+                node->pointers[i] = pointers1[i];
+            }
             node->bounds = bounds1;
             node->num_entries = pointers1.size();
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            // cerr<<"create new node"<<endl;
             this->num_nodes++;
-            new_node->pointers = pointers2;
+            // new_node->pointers = pointers2;
+            for(int i=0;i<pointers2.size();i++){
+                new_node->pointers[i] = pointers2[i];
+            }
             new_node->bounds = bounds2;
             new_node->num_entries = pointers2.size();
             // new_node->isLeaf = false;
             new_node->isLeaf = node->isLeaf;
+            // cerr<<"leaf split complete"<<endl;
             return new_node;
         }
     }
@@ -186,6 +212,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         RTreeNode* new_child = insertRect(min_area_node,new_bounds);
         // No splitting of child node
         if(new_child == nullptr){
+            // cerr<<"Internal node, child not split"<<endl;
             // adjust node bounds
             for(int i=0;i<node->n;i++){
                 for(int j=0;j<node->num_entries;j++){
@@ -197,8 +224,11 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         }
         // child got split
         else{
+            // cerr<<"internal node, child split"<<endl;
             if(node->num_entries < M){
+                // cerr<<"node->num_entries"<<node->num_entries<<endl;
                 node->pointers[node->num_entries] = new_child;
+                // cerr<<"inserting into internal node"<<endl;
                 node->num_entries++;
                 // adjust node bounds
                 for(int i=0;i<node->n;i++){
@@ -313,7 +343,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
     }
 }
 
-pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vector<pair<int,int> > &new_bounds){
+pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vector<pair<int,int> > &new_bounds)
+{
     double old_area = calculate_area(curr_bounds);
     int n = curr_bounds.size();
     vector<pair<int,int> > modified_bounds(n);
@@ -325,7 +356,8 @@ pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vec
     return make_pair(new_area - old_area,old_area);
 }
 
-double calculate_area(vector<pair<int,int> > &bounds){
+double calculate_area(vector<pair<int,int> > &bounds)
+{
     double log_area = 0;
     int n = bounds.size();
     for(int i=0;i<n;i++){
