@@ -345,6 +345,26 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                         break;
                     }
                 }
+                node->pointers = vector<RTreeNode*> (M,nullptr);
+                for(int i=0;i<pointers1.size();i++){
+                    node->pointers[i] = pointers1[i];
+                }
+                node->bounds = bounds1;
+                node->num_entries = pointers1.size();
+                RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+                new_node->node_id = this->num_nodes;
+                // cerr<<"create new node"<<endl;
+                this->num_nodes++;
+                // new_node->pointers = pointers2;
+                for(int i=0;i<pointers2.size();i++){
+                    new_node->pointers[i] = pointers2[i];
+                }
+                new_node->bounds = bounds2;
+                new_node->num_entries = pointers2.size();
+                // new_node->isLeaf = false;
+                new_node->isLeaf = node->isLeaf;
+                // cerr<<"leaf split complete"<<endl;
+                return new_node;
             }
         }
     }
