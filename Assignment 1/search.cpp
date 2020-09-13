@@ -104,20 +104,20 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 	// cerr<<"Search "<<count<<endl;
 	if(node->isLeaf){
 		// cerr<<"leaf"<<endl;
+		count++;
 		for(int i=0;i<node->num_entries;i++){
 			if(check_overlap(node->pointers[i]->bounds,region)){
-				count++;
 				// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 				ans = node->pointers[i];
 			}
 		}
 	}
 	else{
+		count++;
 		if(check_overlap(node->bounds,region)){
 			// cerr<<"non leaf"<<node->num_entries<<endl;
 			for(int i=0;i<node->num_entries;i++){
 				if(check_overlap(node->pointers[i]->bounds,region)){
-					count++;
 					// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 					RTreeNode* temp = search(node->pointers[i],region,count);
 					if(temp!=nullptr)
