@@ -21,6 +21,7 @@ void RTree::insert(string in_filename,string out_filename)
         }
         if(this->root == nullptr){
             this->root = new RTreeNode(this->m,this->M,this->n);
+            this->root->node_id = this->num_nodes;
             this->num_nodes++;
             // cerr<<"Created root"<<endl;
         }
@@ -31,6 +32,7 @@ void RTree::insert(string in_filename,string out_filename)
         }
         else{
             RTreeNode* new_root = new RTreeNode(this->m,this->M,this->n);
+            new_root->node_id = this->num_nodes;
             // cerr<<"root split"<<endl;
             this->num_nodes++;
             new_root->isLeaf=false;
@@ -59,6 +61,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         if(node->num_entries < node-> M){
             // cerr<<"Leaf not full"<<endl;
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            new_node->node_id = this->num_nodes;
             this->num_nodes++;
             new_node->bounds = new_bounds;
             node->pointers[node->num_entries] = new_node;
@@ -71,6 +74,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             // PickSeeds
             // cerr<<"Leaf full, split"<<endl;
             RTreeNode* inserted_node = new RTreeNode(this->m,this->M,this->n);
+            inserted_node->node_id = this->num_nodes;
             this->num_nodes++;
             inserted_node->bounds = new_bounds;
             node->pointers.push_back(inserted_node);
@@ -179,6 +183,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             node->bounds = bounds1;
             node->num_entries = pointers1.size();
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
+            new_node->node_id = this->num_nodes;
             // cerr<<"create new node"<<endl;
             this->num_nodes++;
             // new_node->pointers = pointers2;
@@ -377,6 +382,11 @@ void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id)
             traverse_tree(node->pointers[i],parent,node->node_id);
         }
     }
+    else{
+        for(int i=0;i<node->num_entries;i++){
+            parent[node->pointers[i]->node_id] = node->node_id;
+        }
+    }
 }
 void print_node(RTreeNode* node, ofstream &f)
 {
@@ -411,7 +421,7 @@ void RTree::save(string filename)
     f.open(filename);
     f<<this->num_nodes<<endl;
     f<<this->m<<" "<<this->M<<" "<<this->n<<endl;
-    vector<int> parent(this->num_nodes);
+    vector<int> parent(this->num_nodes,-2);
     traverse_tree(this->root,parent,-1);
     for(int i=0;i<parent.size();i++){
         f<<parent[i]<<' ';

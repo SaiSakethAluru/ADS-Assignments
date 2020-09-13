@@ -2,14 +2,14 @@
 
 RTreeNode::RTreeNode(int m, int M, int n)
 {
-    static int id = 0;
+    // static int id = 0;
     this->m = m;
     this->M = M;
     this->n = n;
     this->pointers = vector<RTreeNode*>(M,nullptr);
     this->isLeaf = true;
     this->num_entries = 0;
-    this->node_id = id++;
+    // this->node_id = id++;
     this->bounds = vector<pair<int,int> > (n);
 }
 
@@ -59,6 +59,7 @@ RTree* load_tree(string filename)
         f>>parent[i];
     }
     vector<RTreeNode*> nodes(num_nodes);
+    // vector<RTreeNode*> nodes;
     for(int i=0;i<num_nodes;i++){
         // nodes.push_back(read_node(f,m,M,n));
         RTreeNode* temp = read_node(f,m,M,n);
@@ -66,11 +67,13 @@ RTree* load_tree(string filename)
     }
     cerr<<"reading done"<<endl;
     for(int i=0;i<num_nodes;i++){
-        if(parent[i]!=-1){
+        if(parent[i]==-1){
+            tree->root = nodes[i];
+        }
+        else{
             nodes[parent[i]]->pointers[nodes[parent[i]]->num_entries] = nodes[i];
             nodes[parent[i]]->num_entries++;
         }
-        else tree->root = nodes[i];
     }
     return tree;
 }
@@ -129,6 +132,7 @@ int main()
 {
     // Read File and make the tree
     RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
+    // Tree->save("check.txt");
     int M = Tree->M;
     vector<pair<int,int> > region;  // The region to be searched
     region.push_back({12,14}); 
