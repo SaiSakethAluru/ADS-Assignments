@@ -63,7 +63,7 @@ public:
 // public:
     RTree(int n);
     ~RTree();
-    void insert(string filename);
+    void insert(string in_filename,string out_filename);
     RTreeNode* insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds);
     void save(string filename);
 };

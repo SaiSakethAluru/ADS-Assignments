@@ -1,9 +1,9 @@
 #include "RTree.h"
 #include <fstream>
 
-void RTree::insert(string filename)
+void RTree::insert(string in_filename,string out_filename)
 {
-    fstream data_file(filename);
+    fstream data_file(in_filename);
     vector<pair<int,int> > new_bounds;
     while(true){
         for(int i=0;i<n;i++){
@@ -34,7 +34,7 @@ void RTree::insert(string filename)
         if(data_file.eof())
             break;
     }
-    this->save("RTree.txt");
+    this->save(out_filename);
 
 }
 
