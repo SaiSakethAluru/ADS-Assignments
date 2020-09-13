@@ -107,6 +107,7 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 		for(int i=0;i<node->num_entries;i++){
 			if(check_overlap(node->pointers[i]->bounds,region)){
 				count++;
+				// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 				ans = node->pointers[i];
 			}
 		}
@@ -117,6 +118,7 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 			for(int i=0;i<node->num_entries;i++){
 				if(check_overlap(node->pointers[i]->bounds,region)){
 					count++;
+					// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 					RTreeNode* temp = search(node->pointers[i],region,count);
 					if(temp!=nullptr)
 						ans = temp;
@@ -132,26 +134,36 @@ int main()
 {
 	// Read File and make the tree
 	RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
-	vector<pair<int,int> > region;  // The region to be searched
+	int n;
+	cout<<"Give Number of Dimensions: "<<endl;
+	cin>>n;
 	int rand1,rand2;
 	srand(time(0));
-	rand1=20*(float)rand()/RAND_MAX;
-	rand2=20*(float)rand()/RAND_MAX;
-	region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
-	rand1=20*(float)rand()/RAND_MAX;
-	rand2=20*(float)rand()/RAND_MAX;
-	region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
-	cout<<"The region to be checked: ";
-	cout<<region[0].first<<" "<<region[0].second<<" "<<region[1].first<<" "<<region[1].second<<endl;
-	int visited = 0;
-	clock_t begin = clock();  
-	RTreeNode* node = search(Tree->root,region,visited);
-	clock_t end = clock();
-	double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
-	cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
+	int count = 0;
+	double avg_time = 0.0;
+	for(int j =0;j<50;j++)
+	{
+		vector<pair<int,int> > region;  // The region to be searched
+		for(int i=0;i<n;i++)
+		{
+			rand1=20*(float)rand()/RAND_MAX;
+			rand2=20*(float)rand()/RAND_MAX;
+			region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
+		}
+	// cout<<"The region to be checked: ";
+	// cout<<region[0].first<<" "<<region[0].second<<" "<<region[1].first<<" "<<region[1].second<<endl;
+		int visited = 0;
+		clock_t begin = clock();  
+		RTreeNode* node = search(Tree->root,region,visited);
+		clock_t end = clock();
+		double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+		count += visited;
+		avg_time += elapsed_secs;
+	}
+	cout<<"Average number of visited nodes: "<<int(count/50)<<endl;
 	
 	cout << "Time taken is : " << fixed 
-		 << elapsed_secs << setprecision(6); 
+		 << (avg_time/50.0) << setprecision(6); 
 	cout << " sec " << endl;
 	
 	return 0;
