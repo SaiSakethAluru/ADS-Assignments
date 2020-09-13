@@ -58,7 +58,7 @@ bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &regio
     }
     return true;
 }
-RTreeNode* search(RTreeNode *root,vector<pair<int,int>> &region,int M)
+RTreeNode* search(RTreeNode *root,vector<pair<int,int> > &region,int M,long *visited)
 {
     bool isLeaf = root->isLeaf;
     vector<RTreeNode*> root_node = root->pointers;
@@ -66,6 +66,7 @@ RTreeNode* search(RTreeNode *root,vector<pair<int,int>> &region,int M)
     RTreeNode* node1=NULL;
     if(isLeaf)
     {
+    	*visited = *visited+1;
         if(check_overlap(bounds,region))
         {
             return root;
@@ -74,11 +75,12 @@ RTreeNode* search(RTreeNode *root,vector<pair<int,int>> &region,int M)
     else
     {
         int i = 0;
+        *visited = *visited+1;
         if(check_overlap(bounds,region))
         {
             while(i<M && root_node[i]!=NULL)
             {   
-                RTreeNode* node2 = search(root_node[i],region,M);
+                RTreeNode* node2 = search(root_node[i],region,M,visited);
                 if(node2!=NULL)
                     node1 = node2;    
                 i++;   
@@ -92,9 +94,31 @@ RTreeNode* search(RTreeNode *root,vector<pair<int,int>> &region,int M)
 int main()
 {
     // Read File and make the tree
-    RTree* Tree = load_tree("RTree.txt"); // The tree made after reading from input
+    RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
     int M = Tree->M;
-    vector<pair<int,int>> region; // The region to be searched
-    RTreeNode* node = search(Tree->root,region,M);
+    vector<pair<int,int> > region;  // The region to be searched
+    region.push_back({12,14}); 
+    region.push_back({3,8});
+    long visited = 0;
+    time_t start, end;
+    time(&start);  
+    ios_base::sync_with_stdio(false); 
+    RTreeNode* node = search(Tree->root,region,M,&visited);
+    time(&end); 
+
+    if(node!=NULL)
+    {
+        cout<<node->bounds[0].first<<" "<<node->bounds[0].second<<" "<<node->bounds[1].first<<" "<<node->bounds[1].second<<endl;
+        cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
+    }
+    else
+    {
+        cout<<"It is NULL\n";
+    }
+    double time_taken = double(end - start); 
+    cout << "Time taken is : " << fixed 
+         << time_taken << setprecision(2); 
+    cout << " sec " << endl;
+    
     return 0;
 }
