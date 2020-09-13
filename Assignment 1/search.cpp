@@ -84,10 +84,9 @@ bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &regio
     {
         pair<int,int> p1 = bounds[i];
         pair<int,int> p2 = region[i];
-        if(p1.first>=p2.first && p1.first<p2.second || p1.second>p2.first && p1.second<=p2.second)
-        {
-
-        }
+        if((p1.first>=p2.first && p1.first<p2.second) || (p1.second>p2.first && p2.first>=p1.first)
+            || (p1.first<=p2.first && p2.second<=p1.second))
+        { }
         else
         {
             return false;
