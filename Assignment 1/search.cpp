@@ -1,4 +1,7 @@
+
 #include "RTree.h"
+#include <ctime>
+#include<cstdlib>
 
 RTreeNode::RTreeNode(int m, int M, int n)
 {
@@ -65,7 +68,7 @@ RTree* load_tree(string filename)
         RTreeNode* temp = read_node(f,m,M,n);
         nodes[temp->node_id] = temp;
     }
-    cerr<<"reading done"<<endl;
+    // cerr<<"reading done"<<endl;
     for(int i=0;i<num_nodes;i++){
         if(parent[i]==-1){
             tree->root = nodes[i];
@@ -98,9 +101,9 @@ bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &regio
 RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 {
     RTreeNode* ans = nullptr;
-    cerr<<"Search "<<count<<endl;
+    // cerr<<"Search "<<count<<endl;
     if(node->isLeaf){
-        cerr<<"leaf"<<endl;
+        // cerr<<"leaf"<<endl;
         for(int i=0;i<node->num_entries;i++){
             if(check_overlap(node->pointers[i]->bounds,region)){
                 count++;
@@ -110,7 +113,7 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
     }
     else{
         if(check_overlap(node->bounds,region)){
-            cerr<<"non leaf"<<node->num_entries<<endl;
+            // cerr<<"non leaf"<<node->num_entries<<endl;
             for(int i=0;i<node->num_entries;i++){
                 if(check_overlap(node->pointers[i]->bounds,region)){
                     count++;
@@ -123,67 +126,32 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
     }
     return ans;
 }
-// RTreeNode* search(RTreeNode *root,vector<pair<int,int> > &region,int M,long *visited)
-// {
-//     bool isLeaf = root->isLeaf;
-//     vector<RTreeNode*> root_node = root->pointers;
-//     vector<pair<int,int> > bounds = root->bounds;
-//     RTreeNode* node1=NULL;
-//     if(isLeaf)
-//     {
-//     	*visited = *visited+1;
-//         if(check_overlap(bounds,region))
-//         {
-//             return root;
-//         }       
-//     }
-//     else
-//     {
-//         int i = 0;
-//         *visited = *visited+1;
-//         if(check_overlap(bounds,region))
-//         {
-//             while(i<M && root_node[i]!=NULL)
-//             {   
-//                 RTreeNode* node2 = search(root_node[i],region,M,visited);
-//                 if(node2!=NULL)
-//                     node1 = node2;    
-//                 i++;   
-//             }
-//             return node1;   
-//         }        
-//     }   
-//     return NULL;
-// }
+
 
 int main()
 {
     // Read File and make the tree
     RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
-    // Tree->save("check.txt");
     vector<pair<int,int> > region;  // The region to be searched
-    region.push_back({12,14}); 
-    region.push_back({3,8});
-    int visited = 0;
-    time_t start, end;
-    time(&start);  
-    ios_base::sync_with_stdio(false); 
+    int rand1,rand2;
+    srand(time(0));
+    rand1=20*(float)rand()/RAND_MAX;
+	rand2=20*(float)rand()/RAND_MAX;
+    region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
+    rand1=20*(float)rand()/RAND_MAX;
+	rand2=20*(float)rand()/RAND_MAX;
+    region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
+	cout<<"The region to be checked: ";
+	cout<<region[0].first<<" "<<region[0].second<<" "<<region[1].first<<" "<<region[1].second<<endl;
+	int visited = 0;
+    clock_t begin = clock();  
     RTreeNode* node = search(Tree->root,region,visited);
-    time(&end); 
-
-    if(node!=nullptr)
-    {
-        cout<<node->bounds[0].first<<" "<<node->bounds[0].second<<" "<<node->bounds[1].first<<" "<<node->bounds[1].second<<endl;
-        cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
-    }
-    else
-    {
-        cout<<"It is NULL\n";
-        cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
-    }
-    double time_taken = double(end - start); 
+    clock_t end = clock();
+  	double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+  	cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
+    
     cout << "Time taken is : " << fixed 
-         << time_taken << setprecision(2); 
+         << elapsed_secs << setprecision(6); 
     cout << " sec " << endl;
     
     return 0;
