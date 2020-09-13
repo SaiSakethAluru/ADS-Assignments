@@ -95,56 +95,84 @@ bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &regio
     }
     return true;
 }
-RTreeNode* search(RTreeNode *root,vector<pair<int,int> > &region,int M,long *visited)
+
+RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 {
-    bool isLeaf = root->isLeaf;
-    vector<RTreeNode*> root_node = root->pointers;
-    vector<pair<int,int> > bounds = root->bounds;
-    RTreeNode* node1=NULL;
-    if(isLeaf)
-    {
-    	*visited = *visited+1;
-        if(check_overlap(bounds,region))
-        {
-            return root;
-        }       
-    }
-    else
-    {
-        int i = 0;
-        *visited = *visited+1;
-        if(check_overlap(bounds,region))
-        {
-            while(i<M && root_node[i]!=NULL)
-            {   
-                RTreeNode* node2 = search(root_node[i],region,M,visited);
-                if(node2!=NULL)
-                    node1 = node2;    
-                i++;   
+    RTreeNode* ans = nullptr;
+    cerr<<"Search "<<count<<endl;
+    if(node->isLeaf){
+        cerr<<"leaf"<<endl;
+        for(int i=0;i<node->num_entries;i++){
+            if(check_overlap(node->pointers[i]->bounds,region)){
+                count++;
+                ans = node->pointers[i];
             }
-            return node1;   
-        }        
-    }   
-    return NULL;
+        }
+    }
+    else{
+        if(check_overlap(node->bounds,region)){
+            cerr<<"non leaf"<<node->num_entries<<endl;
+            for(int i=0;i<node->num_entries;i++){
+                if(check_overlap(node->pointers[i]->bounds,region)){
+                    count++;
+                    RTreeNode* temp = search(node->pointers[i],region,count);
+                    if(temp!=nullptr)
+                        ans = temp;
+                }
+            }
+        }
+    }
+    return ans;
 }
+// RTreeNode* search(RTreeNode *root,vector<pair<int,int> > &region,int M,long *visited)
+// {
+//     bool isLeaf = root->isLeaf;
+//     vector<RTreeNode*> root_node = root->pointers;
+//     vector<pair<int,int> > bounds = root->bounds;
+//     RTreeNode* node1=NULL;
+//     if(isLeaf)
+//     {
+//     	*visited = *visited+1;
+//         if(check_overlap(bounds,region))
+//         {
+//             return root;
+//         }       
+//     }
+//     else
+//     {
+//         int i = 0;
+//         *visited = *visited+1;
+//         if(check_overlap(bounds,region))
+//         {
+//             while(i<M && root_node[i]!=NULL)
+//             {   
+//                 RTreeNode* node2 = search(root_node[i],region,M,visited);
+//                 if(node2!=NULL)
+//                     node1 = node2;    
+//                 i++;   
+//             }
+//             return node1;   
+//         }        
+//     }   
+//     return NULL;
+// }
 
 int main()
 {
     // Read File and make the tree
     RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
     // Tree->save("check.txt");
-    int M = Tree->M;
     vector<pair<int,int> > region;  // The region to be searched
     region.push_back({12,14}); 
     region.push_back({3,8});
-    long visited = 0;
+    int visited = 0;
     time_t start, end;
     time(&start);  
     ios_base::sync_with_stdio(false); 
-    RTreeNode* node = search(Tree->root,region,M,&visited);
+    RTreeNode* node = search(Tree->root,region,visited);
     time(&end); 
 
-    if(node!=NULL)
+    if(node!=nullptr)
     {
         cout<<node->bounds[0].first<<" "<<node->bounds[0].second<<" "<<node->bounds[1].first<<" "<<node->bounds[1].second<<endl;
         cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
@@ -152,6 +180,7 @@ int main()
     else
     {
         cout<<"It is NULL\n";
+        cout<<"NUMBER OF VISITED NODES: "<<visited<<endl;
     }
     double time_taken = double(end - start); 
     cout << "Time taken is : " << fixed 
