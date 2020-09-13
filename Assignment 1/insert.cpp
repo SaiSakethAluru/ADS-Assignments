@@ -45,7 +45,9 @@ void RTree::insert(string in_filename,string out_filename)
         }
         if(data_file.eof())
             break;
+        read_lines++;
     }
+    cerr<<"Tree created"<<endl;
     this->save(out_filename);
 
 }
@@ -376,7 +378,7 @@ void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id)
         }
     }
 }
-void print_node(RTreeNode* node, fstream &f)
+void print_node(RTreeNode* node, ofstream &f)
 {
     f<<node->node_id<<" ";
     f<<node->num_entries<<" ";
@@ -388,7 +390,7 @@ void print_node(RTreeNode* node, fstream &f)
     f<<endl;
 }
 
-void print_rec(RTreeNode* node, fstream &f)
+void print_rec(RTreeNode* node, ofstream &f)
 {
     print_node(node,f);
     if(!node->isLeaf){
@@ -396,10 +398,17 @@ void print_rec(RTreeNode* node, fstream &f)
             print_rec(node->pointers[i],f);
         }
     }
+    else{
+        for(int i=0;i<node->num_entries;i++){
+            print_node(node->pointers[i],f);
+        }
+    }
 }
 void RTree::save(string filename)
 {
-    fstream f(filename);
+    cerr<<"in save"<<endl;
+    ofstream f;
+    f.open(filename);
     f<<this->num_nodes<<endl;
     f<<this->m<<" "<<this->M<<" "<<this->n;
     vector<int> parent(this->num_nodes);
