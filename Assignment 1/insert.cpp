@@ -410,7 +410,7 @@ void RTree::save(string filename)
     ofstream f;
     f.open(filename);
     f<<this->num_nodes<<endl;
-    f<<this->m<<" "<<this->M<<" "<<this->n;
+    f<<this->m<<" "<<this->M<<" "<<this->n<<endl;
     vector<int> parent(this->num_nodes);
     traverse_tree(this->root,parent,-1);
     for(int i=0;i<parent.size();i++){
