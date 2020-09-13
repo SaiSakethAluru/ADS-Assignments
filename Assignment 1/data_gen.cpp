@@ -9,7 +9,7 @@ int main()
 {
 	int n;
 	cin>>n;
-	int N=5000000, rand1, rand2;
+	int N=10000, rand1, rand2;
 	srand(time(0));
 	ofstream fout;
 	fout.open("data.txt");
