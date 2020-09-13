@@ -35,7 +35,8 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
     int node_id,num_entries,isLeaf;
     f>>node_id>>num_entries>>isLeaf;
     RTreeNode* node = new RTreeNode(m,M,n);
-    node->num_entries = num_entries;
+    // node->num_entries = num_entries;
+    node->num_entries = 0;
     node->node_id = node_id;
     node->isLeaf = isLeaf;
     for(int i=0;i<n;i++){
@@ -57,10 +58,13 @@ RTree* load_tree(string filename)
     for(int i=0;i<num_nodes;i++){
         f>>parent[i];
     }
-    vector<RTreeNode*> nodes;
+    vector<RTreeNode*> nodes(num_nodes);
     for(int i=0;i<num_nodes;i++){
-        nodes.push_back(read_node(f,m,M,n));
+        // nodes.push_back(read_node(f,m,M,n));
+        RTreeNode* temp = read_node(f,m,M,n);
+        nodes[temp->node_id] = temp;
     }
+    cerr<<"reading done"<<endl;
     for(int i=0;i<num_nodes;i++){
         if(parent[i]!=-1){
             nodes[parent[i]]->pointers[nodes[parent[i]]->num_entries] = nodes[i];
