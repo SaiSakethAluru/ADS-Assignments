@@ -1,18 +1,24 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
 
+// Includes and function declarations
 #include "RTree.h"
 #include <ctime>
 #include<cstdlib>
 
+// Constructor for RTreeNode
 RTreeNode::RTreeNode(int m, int M, int n)
 {
-	// static int id = 0;
 	this->m = m;
 	this->M = M;
 	this->n = n;
 	this->pointers = vector<RTreeNode*>(M,nullptr);
 	this->isLeaf = true;
 	this->num_entries = 0;
-	// this->node_id = id++;
 	this->bounds = vector<pair<int,int> > (n);
 }
 
@@ -20,6 +26,7 @@ RTreeNode::~RTreeNode()
 {
 }
 
+// Constructor for RTree
 RTree::RTree(int n)
 {
 	this->n = n;
@@ -33,6 +40,7 @@ RTree::~RTree()
 {
 }
 
+// Read the data of a single RTreeNode from file stream and return the constructed node object
 RTreeNode* read_node(fstream& f, int m, int M, int n)
 {
 	int node_id,num_entries,isLeaf;
@@ -48,6 +56,8 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
 	return node;
 
 }
+
+// Function to read data from passed filename and return RTree object
 RTree* load_tree(string filename)
 {
 	fstream f(filename);
@@ -62,13 +72,10 @@ RTree* load_tree(string filename)
 		f>>parent[i];
 	}
 	vector<RTreeNode*> nodes(num_nodes);
-	// vector<RTreeNode*> nodes;
 	for(int i=0;i<num_nodes;i++){
-		// nodes.push_back(read_node(f,m,M,n));
 		RTreeNode* temp = read_node(f,m,M,n);
 		nodes[temp->node_id] = temp;
 	}
-	// cerr<<"reading done"<<endl;
 	for(int i=0;i<num_nodes;i++){
 		if(parent[i]==-1){
 			tree->root = nodes[i];
@@ -80,6 +87,8 @@ RTree* load_tree(string filename)
 	}
 	return tree;
 }
+
+// Function to check if two hyperrectangles overlap
 bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &region)
 {
 	int i;
@@ -98,16 +107,17 @@ bool check_overlap(vector<pair<int,int> > &bounds, vector<pair<int,int> > &regio
 	return true;
 }
 
+/* 
+Function to search for a given hyper rectangle in the RTree and update number of nodes visited.
+Returns to pointer of leaf node having overlap / null if no such leaf node exists
+*/
 RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 {
 	RTreeNode* ans = nullptr;
-	// cerr<<"Search "<<count<<endl;
 	if(node->isLeaf){
-		// cerr<<"leaf"<<endl;
 		count++;
 		for(int i=0;i<node->num_entries;i++){
 			if(check_overlap(node->pointers[i]->bounds,region)){
-				// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 				ans = node->pointers[i];
 			}
 		}
@@ -115,10 +125,8 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 	else{
 		count++;
 		if(check_overlap(node->bounds,region)){
-			// cerr<<"non leaf"<<node->num_entries<<endl;
 			for(int i=0;i<node->num_entries;i++){
 				if(check_overlap(node->pointers[i]->bounds,region)){
-					// cout<<node->pointers[i]->bounds[0].first<<" "<<node->pointers[i]->bounds[0].second<<" "<<node->pointers[i]->bounds[1].first<<" "<<node->pointers[i]->bounds[1].second<<endl;
 					RTreeNode* temp = search(node->pointers[i],region,count);
 					if(temp!=nullptr)
 						ans = temp;
@@ -129,11 +137,11 @@ RTreeNode* search(RTreeNode* node, vector<pair<int,int> > &region,int &count)
 	return ans;
 }
 
-
+// Main function for loading tree from file and searching
 int main()
 {
 	// Read File and make the tree
-	RTree* Tree = load_tree("n2Tree.txt"); // The tree made after reading from input
+	RTree* Tree = load_tree("n2Tree.txt"); 
 	int n;
 	cout<<"Give Number of Dimensions: "<<endl;
 	cin>>n;
@@ -150,8 +158,6 @@ int main()
 			rand2=20*(float)rand()/RAND_MAX;
 			region.push_back({min(rand1,rand2),max(rand1,rand2)}); 
 		}
-	// cout<<"The region to be checked: ";
-	// cout<<region[0].first<<" "<<region[0].second<<" "<<region[1].first<<" "<<region[1].second<<endl;
 		int visited = 0;
 		clock_t begin = clock();  
 		RTreeNode* node = search(Tree->root,region,visited);

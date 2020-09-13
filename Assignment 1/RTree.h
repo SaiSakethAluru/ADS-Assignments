@@ -1,3 +1,11 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
+
+// Header file for RTree and RTreeNode classes
 #include <iostream>
 #include <bits/stdc++.h>
 #include <algorithm>
@@ -18,7 +26,6 @@ public:
     int n;
     vector<pair<int,int> > bounds;
 
-// public:
     RTreeNode(int m, int M, int n);
     ~RTreeNode();
 };
@@ -33,7 +40,7 @@ public:
     int M;
     int m;
     int num_nodes;
-// public:
+    
     RTree(int n);
     ~RTree();
     void insert(string in_filename,string out_filename);

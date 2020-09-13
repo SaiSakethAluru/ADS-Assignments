@@ -1,3 +1,11 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
+
+// Program to create random input data
 #include<fstream>
 #include<iostream>
 #include<cstdlib>

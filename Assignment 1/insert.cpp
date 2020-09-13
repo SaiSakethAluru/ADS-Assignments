@@ -1,3 +1,11 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
+
+// Includes and function declarations
 #include "RTree.h"
 #include <fstream>
 
@@ -7,59 +15,70 @@ void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id);
 void print_node(RTreeNode* node, fstream &f);
 void print_rec(RTreeNode* node, fstream &f);
 
+/* 
+Function to read data from input file, 
+Insert into a RTree and finally save the RTree into output file
+*/
 void RTree::insert(string in_filename,string out_filename)
 {
+    cout<<"Reading data"<<endl;
     fstream data_file(in_filename);
     vector<pair<int,int> > new_bounds(this->n);
-    int read_lines = 0;
     while(true){
-        if(read_lines>0 && read_lines%1000==0)
-            cerr<<read_lines<<endl;
         for(int i=0;i<this->n;i++){
             data_file >> new_bounds[i].first;
             data_file >> new_bounds[i].second;
         }
+        // Create root node initially.
         if(this->root == nullptr){
             this->root = new RTreeNode(this->m,this->M,this->n);
             this->root->node_id = this->num_nodes;
             this->num_nodes++;
-            // cerr<<"Created root"<<endl;
         }
+        // Call to recursive function to insert the new datapoint.
         RTreeNode* new_child = insertRect(this->root,new_bounds);
         if(new_child==nullptr){
-            // nothing to do?
-            // cerr<<"root not split"<<endl;
+            // Nothing to do
         }
+        // If previous insertion caused root to split
         else{
+            // Create a new root node 
             RTreeNode* new_root = new RTreeNode(this->m,this->M,this->n);
             new_root->node_id = this->num_nodes;
-            // cerr<<"root split"<<endl;
             this->num_nodes++;
             new_root->isLeaf=false;
+            // Add the previous root and new node obtained after split as children to this new root
             new_root->pointers[0] = this->root;
             new_root->pointers[1] = new_child;
             new_root->num_entries = 2;
+            // Modify the MBR bounds of the new root.
             for(int i=0;i<this->n;i++){
                 new_root->bounds[i].first = min(new_root->pointers[0]->bounds[i].first,new_root->pointers[1]->bounds[i].first);
                 new_root->bounds[i].second = max(new_root->pointers[0]->bounds[i].second,new_root->pointers[1]->bounds[i].second);
             }
             this->root = new_root;
         }
+        // Stop after reaching end of loop
         if(data_file.eof())
             break;
-        read_lines++;
     }
-    cerr<<"Tree created"<<endl;
+    cout<<"Tree created"<<endl;
+    // Save the tree
     this->save(out_filename);
 
 }
 
+/*
+Recursive function that traverses the tree and inserts the hyperrectangle of dimensions new_bounds
+in appropriate location. After insertions returns pointer to new node created in case of split and
+null if no new node is created
+*/
 RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds)
 {
-    // cerr<<"Insert rect"<<endl;
     if(node->isLeaf){
+        // Case 1 - node is a leaf node and has space for additional entry
+        // Insert node and return null
         if(node->num_entries < node-> M){
-            // cerr<<"Leaf not full"<<endl;
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
             new_node->node_id = this->num_nodes;
             this->num_nodes++;
@@ -68,11 +87,10 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             node->num_entries++;
             return nullptr;
         }    
+        // Case 2 - node is leaf node and is full. 
+        // Apply quadratic split algorithm
         else{
-            // TODO split node
-
             // PickSeeds
-            // cerr<<"Leaf full, split"<<endl;
             RTreeNode* inserted_node = new RTreeNode(this->m,this->M,this->n);
             inserted_node->node_id = this->num_nodes;
             this->num_nodes++;
@@ -84,7 +102,6 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             vector<pair<int,int> > bounds2;
             double max_empty_area = INT_MIN;
             int max_empty_area_node1, max_empty_area_node2;
-            // cerr<<node->pointers.size()<<" "<<node->M;
             for(int i=0;i<M;i++){
                 for(int j=i+1;j<M+1;j++){
                     vector<pair<int,int> > mbr(node->n);
@@ -100,23 +117,19 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                     }
                 }
             }
-            // cerr<<"seeds selected"<<endl;
             pointers1.push_back(node->pointers[max_empty_area_node1]);
             pointers2.push_back(node->pointers[max_empty_area_node2]);
             bounds1 = node->pointers[max_empty_area_node1]->bounds;
             bounds2 = node->pointers[max_empty_area_node2]->bounds;
             vector<bool> erased(node->pointers.size(),false);
             int erase_left = node->pointers.size();
-            // node->pointers.erase(max_empty_area_node1);
-            // node->pointers.erase(max_empty_area_node2-1);
             erased[max_empty_area_node1] = true;
             erased[max_empty_area_node2] = true;
             erase_left -= 2;
+            
             // PickNext
-
             while(erase_left>0){
                 // If neither splits are full
-                // if(pointers1.size()<node->m+1 && pointers2.size()<node->m+1){
                 if(pointers1.size() + erase_left > node->m && pointers2.size() + erase_left > node->m){
                     double max_area_diff = INT_MIN;
                     int max_area_diff_node,favored_split;
@@ -174,8 +187,6 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                     break;
                 }
             }
-            // cerr<<"after split  "<<pointers1.size()<<" "<<pointers2.size()<<endl;
-            // node->pointers = pointers1;
             node->pointers = vector<RTreeNode*> (M,nullptr);
             for(int i=0;i<pointers1.size();i++){
                 node->pointers[i] = pointers1[i];
@@ -184,21 +195,20 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             node->num_entries = pointers1.size();
             RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
             new_node->node_id = this->num_nodes;
-            // cerr<<"create new node"<<endl;
             this->num_nodes++;
-            // new_node->pointers = pointers2;
             for(int i=0;i<pointers2.size();i++){
                 new_node->pointers[i] = pointers2[i];
             }
             new_node->bounds = bounds2;
             new_node->num_entries = pointers2.size();
-            // new_node->isLeaf = false;
             new_node->isLeaf = node->isLeaf;
-            // cerr<<"leaf split complete"<<endl;
             return new_node;
         }
     }
+    // Current node is internal node
     else{
+        // Find child entry that has minimum increase in area upon addition of new node,
+        // Break ties by selecting the entry with least area
         RTreeNode* min_area_node = nullptr;
         double min_diff = INT_MAX;
         double min_area = INT_MAX;
@@ -217,9 +227,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             } 
         }
         RTreeNode* new_child = insertRect(min_area_node,new_bounds);
-        // No splitting of child node
+        // Case 3 - No splitting of child node
         if(new_child == nullptr){
-            // cerr<<"Internal node, child not split"<<endl;
             // adjust node bounds
             for(int i=0;i<node->n;i++){
                 for(int j=0;j<node->num_entries;j++){
@@ -229,13 +238,12 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             }
             return nullptr;
         }
-        // child got split
+        // Child node got split
         else{
-            // cerr<<"internal node, child split"<<endl;
+            // Case 4 - child got split and current node has empty space
             if(node->num_entries < M){
-                // cerr<<"node->num_entries"<<node->num_entries<<endl;
+                // Add new node
                 node->pointers[node->num_entries] = new_child;
-                // cerr<<"inserting into internal node"<<endl;
                 node->num_entries++;
                 // adjust node bounds
                 for(int i=0;i<node->n;i++){
@@ -246,9 +254,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 }
                 return nullptr;
             }
+            // Case 5 - child got split and parent is full - apply quadratic split algorithm
             else {
-                // TODO quadratic split
-                // TODO adjust node bounds and return the new node. 
                 node->pointers.push_back(new_child);
                 vector<RTreeNode*> pointers1;
                 vector<RTreeNode*> pointers2;
@@ -256,7 +263,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 vector<pair<int,int> > bounds2;
                 double max_empty_area = INT_MIN;
                 int max_empty_area_node1, max_empty_area_node2;
-
+                // Pick seeds
                 for(int i=0;i<M;i++){
                     for(int j=i+1;j<M+1;j++){
                         vector<pair<int,int> > mbr(node->n);
@@ -278,16 +285,13 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 bounds2 = node->pointers[max_empty_area_node2]->bounds;
                 vector<bool> erased(node->pointers.size(),false);
                 int erase_left = node->pointers.size();
-                // node->pointers.erase(max_empty_area_node1);
-                // node->pointers.erase(max_empty_area_node2-1);
                 erased[max_empty_area_node1] = true;
                 erased[max_empty_area_node2] = true;
                 erase_left -= 2;
+                
                 // PickNext
-
                 while(erase_left>0){
                     // If neither splits are full
-                    // if(pointers1.size()<node->m+1 && pointers2.size()<node->m+1){
                     if(pointers1.size() + erase_left > node->m && pointers2.size() + erase_left > node->m){
                         double max_area_diff = INT_MIN;
                         int max_area_diff_node,favored_split;
@@ -353,23 +357,23 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 node->num_entries = pointers1.size();
                 RTreeNode* new_node = new RTreeNode(this->m,this->M,this->n);
                 new_node->node_id = this->num_nodes;
-                // cerr<<"create new node"<<endl;
                 this->num_nodes++;
-                // new_node->pointers = pointers2;
                 for(int i=0;i<pointers2.size();i++){
                     new_node->pointers[i] = pointers2[i];
                 }
                 new_node->bounds = bounds2;
                 new_node->num_entries = pointers2.size();
-                // new_node->isLeaf = false;
                 new_node->isLeaf = node->isLeaf;
-                // cerr<<"leaf split complete"<<endl;
                 return new_node;
             }
         }
     }
 }
 
+/*
+Function to calculate area of a hyperrectangle and the difference in increase of area upon additon of a new entry
+The function takes log of the (max-min) values in order to prevent overflow during multiplication
+*/
 pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vector<pair<int,int> > &new_bounds)
 {
     double old_area = calculate_area(curr_bounds);
@@ -383,6 +387,7 @@ pair<double,double> calculate_area_diff(vector<pair<int,int> > &curr_bounds, vec
     return make_pair(new_area - old_area,old_area);
 }
 
+// Calculate log area of a MBR
 double calculate_area(vector<pair<int,int> > &bounds)
 {
     double log_area = 0;
@@ -393,7 +398,7 @@ double calculate_area(vector<pair<int,int> > &bounds)
     return log_area;
 }
 
-
+// Traverses the tree recursively and makes note of parent id of each node. Root has id -1
 void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id)
 {
     parent[node->node_id] = par_id;
@@ -408,18 +413,20 @@ void traverse_tree(RTreeNode* node, vector<int> &parent, int par_id)
         }
     }
 }
+
+// Prints a node and its associated values to a filestream
 void print_node(RTreeNode* node, ofstream &f)
 {
     f<<node->node_id<<" ";
     f<<node->num_entries<<" ";
     f<<(int)node->isLeaf<<" ";
-    // f<<node->bounds.size()<<" ";
     for(int i=0;i<node->bounds.size();i++){
         f<<node->bounds[i].first<<" "<<node->bounds[i].second<<" ";
     }
     f<<endl;
 }
 
+// Recursive function to traverse and print each node to filestream
 void print_rec(RTreeNode* node, ofstream &f)
 {
     print_node(node,f);
@@ -434,9 +441,10 @@ void print_rec(RTreeNode* node, ofstream &f)
         }
     }
 }
+
+// Function to save a tree to a file. 
 void RTree::save(string filename)
 {
-    cerr<<"in save"<<endl;
     ofstream f;
     f.open(filename);
     f<<this->num_nodes<<endl;

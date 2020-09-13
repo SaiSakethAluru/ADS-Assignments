@@ -1,18 +1,24 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
+
 #include "RTree.h"
 #include <iostream>
 
 using namespace std;
 
+// Constructor for RTreeNode class
 RTreeNode::RTreeNode(int m, int M, int n)
 {
-    // static int id = 0;
     this->m = m;
     this->M = M;
     this->n = n;
     this->pointers = vector<RTreeNode*>(M,nullptr);
     this->isLeaf = true;
     this->num_entries = 0;
-    // this->node_id = id++;
     this->bounds = vector<pair<int,int> > (n);
 }
 
@@ -20,6 +26,7 @@ RTreeNode::~RTreeNode()
 {
 }
 
+// Constructor for RTree class
 RTree::RTree(int n)
 {
     this->n = n;
@@ -33,6 +40,7 @@ RTree::~RTree()
 {
 }
 
+// main function for creating RTree and storing in file
 int main()
 {
     int n = 2;
