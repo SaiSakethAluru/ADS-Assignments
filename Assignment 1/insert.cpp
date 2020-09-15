@@ -24,7 +24,9 @@ void RTree::insert(string in_filename,string out_filename)
     cout<<"Reading data"<<endl;
     fstream data_file(in_filename);
     vector<pair<int,int> > new_bounds(this->n);
+    long long j;
     while(true){
+        j++;
         for(int i=0;i<this->n;i++){
             data_file >> new_bounds[i].first;
             data_file >> new_bounds[i].second;
@@ -58,6 +60,7 @@ void RTree::insert(string in_filename,string out_filename)
             }
             this->root = new_root;
         }
+        cout<<j<<endl;
         // Stop after reaching end of loop
         if(data_file.eof())
             break;
@@ -233,8 +236,10 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         if(new_child == nullptr){
             // adjust node bounds
             for(int i=0;i<node->n;i++){
-                node->bounds[i].first = min(node->bounds[i].first,new_child->bounds[i].first);
-                node->bounds[i].second = max(node->bounds[i].second,new_child->bounds[i].second);
+                for(int j=0;j<node->num_entries;j++){
+                    node->bounds[i].first = min(node->bounds[i].first,node->pointers[j]->bounds[i].first);
+                    node->bounds[i].second = max(node->bounds[i].second,node->pointers[j]->bounds[i].second);
+                }
             }
             return nullptr;
         }
