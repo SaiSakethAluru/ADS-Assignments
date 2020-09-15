@@ -16,8 +16,9 @@ using namespace std;
 int main()
 {
 	int n;
+	cout<<"Enter the dimensions: \n";
 	cin>>n;
-	int N=10000, rand1, rand2;
+	int N=1000000, rand1, rand2;
 	srand(time(0));
 	ofstream fout;
 	fout.open("data.txt");
