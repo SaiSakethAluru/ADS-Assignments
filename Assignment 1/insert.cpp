@@ -176,6 +176,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                     }
                     else if(pointers2.size() > node->m && pointers1.size() + erase_left ==node->m){
                         for(int i=0;i<node->pointers.size();i++){
+                            if(erased[i])
+                                continue;
                             pointers1.push_back(node->pointers[i]);
                             for(int j=0;j<node->n;j++){
                                 bounds1[j].first = min(bounds1[j].first, node->pointers[i]->bounds[j].first);
@@ -338,6 +340,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                         }
                         else if(pointers2.size() > node->m && pointers1.size() + erase_left ==node->m){
                             for(int i=0;i<node->pointers.size();i++){
+                                if(erased[i])
+                                    continue;
                                 pointers1.push_back(node->pointers[i]);
                                 for(int j=0;j<node->n;j++){
                                     bounds1[j].first = min(bounds1[j].first, node->pointers[i]->bounds[j].first);
