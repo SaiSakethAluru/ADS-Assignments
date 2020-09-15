@@ -233,10 +233,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         if(new_child == nullptr){
             // adjust node bounds
             for(int i=0;i<node->n;i++){
-                for(int j=0;j<node->num_entries;j++){
-                    node->bounds[i].first = min(node->bounds[i].first,node->pointers[j]->bounds[i].first);
-                    node->bounds[i].second = max(node->bounds[i].second,node->pointers[j]->bounds[i].second);
-                }
+                node->bounds[i].first = min(node->bounds[i].first,new_child->bounds[i].first);
+                node->bounds[i].second = max(node->bounds[i].second,new_child->bounds[i].second);
             }
             return nullptr;
         }
@@ -249,10 +247,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 node->num_entries++;
                 // adjust node bounds
                 for(int i=0;i<node->n;i++){
-                    for(int j=0;j<node->num_entries;j++){
-                        node->bounds[i].first = min(node->bounds[i].first,node->pointers[j]->bounds[i].first);
-                        node->bounds[i].second = max(node->bounds[i].second,node->pointers[j]->bounds[i].second);
-                    }
+                    node->bounds[i].first = min(node->bounds[i].first,new_child->bounds[i].first);
+                    node->bounds[i].second = max(node->bounds[i].second,new_child->bounds[i].second);
                 }
                 return nullptr;
             }
