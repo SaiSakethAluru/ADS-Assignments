@@ -106,6 +106,14 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
 	for(int i=0;i<n;i++){
 		f>>node->bounds[i].first>>node->bounds[i].second;
 	}
+	if(node->isLeaf){
+		node->child_bounds = vector<vector<pair<int,int> > > (num_entries,vector<pair<int,int> > (n));
+		for(int i=0;i<num_entries;i++){
+			for(int j=0;j<n;j++){
+				f>>node->child_bounds[i][j].first>>node->child_bounds[i][j].second;
+			}
+		}
+	}
 	return node;
 }
 
@@ -116,7 +124,7 @@ RTree* load_tree(string filename)
 	int num_nodes;
 	f>>num_nodes;
 	vector<int> parent(num_nodes);
-	int m, M, n;s
+	int m, M, n;
 	f>>m>>M>>n;
 	RTree* tree = new RTree(n);
 	tree->num_nodes = num_nodes;
@@ -146,7 +154,8 @@ int main(){
 	cout<<tree->root->num_entries<<endl;
 	vector<pair<int,int> > point;
 	point.push_back(make_pair(1,1));
-	point.push_back(make_pair(9,9));
+	// point.push_back(make_pair(9,9));
+	point.push_back(make_pair(40,40));
 	long long count = 0;
 	vector<double> distances;
 	stack<RTreeNode*> st;
