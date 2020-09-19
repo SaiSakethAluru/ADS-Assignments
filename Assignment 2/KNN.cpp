@@ -81,9 +81,11 @@ void NNDistance(RTreeNode* node, vector<pair<int,int> > &point, vector<double> &
 			}
 			else st.push(node->pointers[i]);
 		}
-		RTreeNode* next_node = st.top();
-		st.pop();
-		NNDistance(next_node,point,distances,k,st,count);
+		if(!st.empty()){
+			RTreeNode* next_node = st.top();
+			st.pop();
+			NNDistance(next_node,point,distances,k,st,count);
+		}
 	}
 }
 
