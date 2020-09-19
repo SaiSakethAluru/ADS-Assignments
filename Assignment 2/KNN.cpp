@@ -107,6 +107,7 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
 		f>>node->bounds[i].first>>node->bounds[i].second;
 	}
 	if(node->isLeaf){
+		node->num_entries=num_entries;
 		node->child_bounds = vector<vector<pair<int,int> > > (num_entries,vector<pair<int,int> > (n));
 		for(int i=0;i<num_entries;i++){
 			for(int j=0;j<n;j++){
