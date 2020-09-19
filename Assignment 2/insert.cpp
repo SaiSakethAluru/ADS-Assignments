@@ -34,7 +34,7 @@ void RTree::insert(string in_filename,string out_filename)
     while(true){
         tempj++;
         if(tempj%1000==0){
-            cerr<<tempj<<endl;
+            cout<<tempj<<endl;
         }
         for(int i=0;i<this->n;i++){
             data_file >> new_bounds[i].first;
@@ -42,7 +42,7 @@ void RTree::insert(string in_filename,string out_filename)
         }
         // Create root node initially.
         if(this->root == nullptr){
-            cerr<<"Root created"<<endl;
+            // cerr<<"Root created"<<endl;
             this->root = new RTreeNode(this->m,this->M,this->n);
             this->root->node_id = this->num_nodes;
             this->num_nodes++;
@@ -54,7 +54,7 @@ void RTree::insert(string in_filename,string out_filename)
         }
         // If previous insertion caused root to split
         else{
-            cerr<<"Root split"<<endl;
+            // cerr<<"Root split"<<endl;
             // Create a new root node 
             RTreeNode* new_root = new RTreeNode(this->m,this->M,this->n);
             new_root->node_id = this->num_nodes;
@@ -109,7 +109,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
         // Case 2 - node is leaf node and is full. 
         // Apply quadratic split algorithm
         else{
-            cerr<<"Leaf split"<<endl;
+            // cerr<<"Leaf split"<<endl;
             // PickSeeds
             node->child_bounds.push_back(new_bounds);
             // vector<RTreeNode*> pointers1;
@@ -302,7 +302,7 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
             }
             // Case 5 - child got split and parent is full - apply quadratic split algorithm
             else {
-                cerr<<"Internal node split"<<endl;
+                // cerr<<"Internal node split"<<endl;
             	node->pointers.push_back(new_child);
             	node->child_bounds.push_back(new_child->bounds);
                 vector<RTreeNode*> pointers1;
@@ -314,20 +314,20 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                 double max_empty_area = INT_MIN;
                 int max_empty_area_node1=-1, max_empty_area_node2=-1;
                 // Pick seeds
-                cerr<<"picking seeds: "<<node->num_entries<<endl;
+                // cerr<<"picking seeds: "<<node->num_entries<<endl;
                 for(int i=0;i<this->M;i++){
-                    cerr<<"i: "<<i<<endl;
+                    // cerr<<"i: "<<i<<endl;
                     for(int j=i+1;j<this->M+1;j++){
-                        cerr<<j<<" ";
+                        // cerr<<j<<" ";
                         vector<pair<int,int> > mbr(this->n);
                         for(int k=0;k<this->n;k++){
-                            cerr<<"min"<<k<<" ";
+                            // cerr<<"min"<<k<<" ";
                             mbr[k].first = min(node->child_bounds[i][k].first,node->child_bounds[j][k].first);
-                            cerr<<"max"<<k<<" ";
+                            // cerr<<"max"<<k<<" ";
                             mbr[k].second = max(node->child_bounds[i][k].second,node->child_bounds[j][k].second);
                         }
                         double empty_area = calculate_area(mbr) - calculate_area(node->child_bounds[i]) - calculate_area(node->child_bounds[j]);
-                        cerr<<empty_area<<" "<<max_empty_area<<endl;
+                        // cerr<<empty_area<<" "<<max_empty_area<<endl;
                         if(empty_area>max_empty_area){
                             max_empty_area = empty_area;
                             max_empty_area_node1 = i;
@@ -335,8 +335,8 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                         }
                     }
                 }
-                cerr<<endl;
-                cerr<<max_empty_area_node1<<" "<<max_empty_area_node2<<endl;
+                // cerr<<endl;
+                // cerr<<max_empty_area_node1<<" "<<max_empty_area_node2<<endl;
                 // if(max_empty_area_node1 == -1 || max_empty_area_node2==-1){
                     // cerr<<max_empty_area_node1<<" "<<max_empty_area_node2<<endl;
                 // } 
@@ -362,14 +362,14 @@ RTreeNode* RTree::insertRect(RTreeNode* node, vector<pair<int,int> > &new_bounds
                                 continue;
                             pair<double,double> first_split_diff = calculate_area_diff(bounds1,node->child_bounds[i]);
                             pair<double,double> second_split_diff = calculate_area_diff(bounds2,node->child_bounds[i]);
-                            cerr<<"abs "<<abs(first_split_diff.first - second_split_diff.first)<<" "<<max_area_diff<<endl;
+                            // cerr<<"abs "<<abs(first_split_diff.first - second_split_diff.first)<<" "<<max_area_diff<<endl;
                             if(abs(first_split_diff.first - second_split_diff.first) > max_area_diff){
                                 max_area_diff = abs(first_split_diff.first - second_split_diff.first);
                                 max_area_diff_node = i;
                                 favored_split = (first_split_diff.first > second_split_diff.first?2:1);
                             }
                         }
-                        cerr<<"max_area_diff_node: "<<max_area_diff_node<<endl;
+                        // cerr<<"max_area_diff_node: "<<max_area_diff_node<<endl;
                         if(favored_split==1){
                             pointers1.push_back(node->pointers[max_area_diff_node]);
                             child_bounds1.push_back(node->child_bounds[max_area_diff_node]);
@@ -511,9 +511,11 @@ void print_node(RTreeNode* node, ofstream &f)
     for(int i=0;i<node->bounds.size();i++){
         f<<node->bounds[i].first<<" "<<node->bounds[i].second<<" ";
     }
-    for(int i=0;i<node->num_entries;i++){
-        for(int j=0;j<node->bounds.size();j++){
-            f<<node->child_bounds[i][j].first<<" "<<node->child_bounds[i][j].second<<" ";
+    if(node->isLeaf){
+        for(int i=0;i<node->num_entries;i++){
+            for(int j=0;j<node->bounds.size();j++){
+                f<<node->child_bounds[i][j].first<<" "<<node->child_bounds[i][j].second<<" ";
+            }
         }
     }
     f<<endl;
