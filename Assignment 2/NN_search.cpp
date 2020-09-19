@@ -7,10 +7,13 @@ class Nearest {
 public:
 	int dist;
 	vector<pair<int,int> > bounds;
-	Nearest()
+	Nearest(int n)
 	{
 		dist = INT_MAX;
+		this->bounds = vector<pair<int,int> > (n);
 	}
+	
+
 };
 
 RTreeNode::RTreeNode(int m, int M, int n)
@@ -349,6 +352,7 @@ void NNsearch(RTreeNode *root, vector<int> &point,Nearest* N,int &count)
 
 int main()
 {
+
 	RTree* Tree = load_tree("n2Tree.txt"); 
 	int n = 2;
 	// cout<<"Give Number of Dimensions: "<<endl;
@@ -361,7 +365,7 @@ int main()
 	for(int j =0;j<50;j++)
 	{
 		vector<int> point;  // The region to be searched
-		Nearest* N = new Nearest();
+		Nearest* N = new Nearest(n);
 		for(int i=0;i<n;i++)
 		{
 			rand1=30*(float)rand()/RAND_MAX;
