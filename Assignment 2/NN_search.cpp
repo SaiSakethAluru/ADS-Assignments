@@ -1,5 +1,3 @@
-#include<iostream>
-#include<bits/stdc++.h>
 #include "RTree.h"
 #include <ctime>
 #include<cstdlib>
@@ -14,6 +12,73 @@ public:
 		dist = INT_MAX;
 	}
 };
+
+RTreeNode::RTreeNode(int m, int M, int n)
+{
+    // this->pointers = vector<RTreeNode*>(M,nullptr);
+    // this->child_bounds = vector<vector<pair<int,int> > >(M);
+    this->isLeaf = true;
+    this->num_entries = 0;
+    this->bounds = vector<pair<int,int> > (n);
+}
+
+// Constructor for RTree class
+RTree::RTree(int n)
+{
+    this->n = n;
+    this->root = nullptr;
+    this->M = 4096/(4*n+1);
+    // this->M = 1024/(4*n+1);
+    this->m = this->M/2;
+    this->num_nodes = 0;
+}
+
+RTreeNode* read_node(fstream& f, int m, int M, int n)
+{
+	int node_id,num_entries,isLeaf;
+	f>>node_id>>num_entries>>isLeaf;
+	RTreeNode* node = new RTreeNode(m,M,n);
+	// node->num_entries = num_entries;
+	node->num_entries = 0;
+	node->node_id = node_id;
+	node->isLeaf = isLeaf;
+	for(int i=0;i<n;i++){
+		f>>node->bounds[i].first>>node->bounds[i].second;
+	}
+	return node;
+}
+
+// Function to read data from passed filename and return RTree object
+RTree* load_tree(string filename)
+{
+	fstream f(filename);
+	int num_nodes;
+	f>>num_nodes;
+	vector<int> parent(num_nodes);
+	int m, M, n;
+	f>>m>>M>>n;
+	RTree* tree = new RTree(n);
+	tree->num_nodes = num_nodes;
+	for(int i=0;i<num_nodes;i++){
+		f>>parent[i];
+	}
+	vector<RTreeNode*> nodes(num_nodes);
+	for(int i=0;i<num_nodes;i++){
+		RTreeNode* temp = read_node(f,m,M,n);
+		nodes[temp->node_id] = temp;
+	}
+	for(int i=0;i<num_nodes;i++){
+		if(parent[i]==-1){
+			tree->root = nodes[i];
+		}
+		else{
+			nodes[parent[i]]->pointers.push_back(nodes[i]);
+			nodes[parent[i]]->child_bounds.push_back(nodes[i]->bounds);
+			nodes[parent[i]]->num_entries++;
+		}
+	}
+	return tree;
+}
 
 int mindist(vector<int> &point, vector<pair<int,int> > &bounds)
 {
@@ -32,7 +97,7 @@ int mindist(vector<int> &point, vector<pair<int,int> > &bounds)
 		}
 
 	}
-	return dist
+	return dist;
 }
 
 int minmaxdist(vector<int> &point, vector<pair<int,int> > &bounds)
@@ -151,7 +216,7 @@ void sortBranchList(vector<RTreeNode *> &branchlist, vector<int> &mindist_list, 
 	{
 		sortBranchList(branchlist,mindist_list,minmaxdist_list,l,mid);
 		sortBranchList(branchlist,mindist_list,minmaxdist_list,mid+1,r);
-		merge(branchlist,mindist_list,minmaxdist_list,l,m,r)
+		merge(branchlist,mindist_list,minmaxdist_list,l,mid,r);
 	}
 
 }
@@ -207,49 +272,69 @@ void downwardPruning(vector<RTreeNode *> &branchlist, vector<int> &mindist_list,
 void NNsearch(RTreeNode *root, vector<int> &point,Nearest* N,int &count)
 {
 	int i;
+	// cout<<"sasi0"<<endl;
 	if(root->isLeaf)
 	{
+		// cout<<"sasi1"<<endl;
 		count++;
+		
 		int dist1;
-		for(i=0;i<root->num_entries;i++)
-		{
-			dist1 = mindist(point,root->child_bounds[i]);
+		// cout<<root->bounds.size()<<endl;
+		// cout<<root->bounds[0].first<<" "<<root->bounds[0].second<<" "<<root->bounds[1].first<<" "<<root->bounds[0].second<<endl;
+		// for(i=0;i<root->num_entries;i++)
+		// {
+			dist1 = mindist(point,root->bounds);
+			// cout<<"sasi2"<<endl;
 			if(dist1<N->dist)
 			{
 				N->dist = dist1;
-				N->bounds = root->child_bounds[i];
+				N->bounds = root->bounds;
 			}
-		}
+		// }
 	}
 	else
 	{
+		
 		count++;
+		// cout<<"sasi3"<<endl;
+		// cout<<root->num_entries<<endl;
 		vector<RTreeNode *> branchlist;
 		vector<int> mindist_list;
 		vector<int> minmaxdist_list;
 		for(i=0;i<root->num_entries;i++)
 		{
+			
 			branchlist.push_back(root->pointers[i]);
 			mindist_list.push_back(mindist(point,root->child_bounds[i]));
 			minmaxdist_list.push_back(minmaxdist(point,root->child_bounds[i]));
 		}
+		// cout<<"sasi5"<<endl;
 		sortBranchList(branchlist,mindist_list,minmaxdist_list,0,i-1);
-		downwardPruning(branchlist,mindist_list,minmaxdist_list);
-		int flag = 1;
-		for(i=0;i<branchlist.size() - 1;i++)
+		// cout<<"sasi6"<<endl;
+		// cout<<branchlist.size()<<endl;
+		// downwardPruning(branchlist,mindist_list,minmaxdist_list,N);
+		// cout<<"sasi7"<<endl;
+		// cout<<branchlist.size()<<endl;
+		if(branchlist.size() > 0)
 		{
-			if(flag)
-				NNsearch(branchlist[i],point,N,count);
+			int flag = 1;
+			// cout<<"sasi8"<<endl;
+			for(i=0;i < branchlist.size();i++)
+			{	
+				// upward pruning
+				if(mindist_list[i] > N->dist)
+					flag = 0;
+				else
+					flag = 1;	
 
-			// upward pruning
-			if(mindist_list[i+1] > N->dist)
-				flag = 0;
-			else
-				flag = 1;
+				if(flag)
+				{
+					NNsearch(branchlist[i],point,N,count);
+				}
+
+				
+			}
 		}
-		if(flag)
-			NNsearch(branchlist[i],point,N);
-
 	}
 }
 
@@ -274,12 +359,18 @@ int main()
 			point.push_back(10+rand1); 
 		}
 		int visited = 0;
+		// cout<<point[0]<<" "<<point[1]<<endl;
 		clock_t begin = clock();  
 		NNsearch(Tree->root,point,N,visited);
 		clock_t end = clock();
 		double elapsed_secs = double(end - begin) /(CLOCKS_PER_SEC/1000);
 		count += visited;
 		avg_time += elapsed_secs;
+		// cout<<N->bounds.size()<<endl;
+		// cout<<N->bounds[0].first<<" "<<N->bounds[0].second<<" "<<N->bounds[1].first<<" "<<N->bounds[0].second<<endl;
+		
+		// cout<<N->dist<<endl;
+		// cout<<visited<<endl;
 	}
 	cout<<"Average number of visited nodes: "<<int(count/50)<<endl;
 	
