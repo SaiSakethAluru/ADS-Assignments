@@ -1,3 +1,10 @@
+/*
+Team details:
+Sai Saketh Aluru - 16CS30030
+K Sai Surya Teja - 16CS30015
+Sasi Bhushan Seelaboyina - 16CS30032
+*/
+
 #include "RTree.h"
 #include <ctime>
 #include<cstdlib>
@@ -8,8 +15,6 @@ using namespace std;
 
 RTreeNode::RTreeNode(int m, int M, int n)
 {
-    // this->pointers = vector<RTreeNode*>(M,nullptr);
-    // this->child_bounds = vector<vector<pair<int,int> > >(M);
     this->isLeaf = true;
     this->num_entries = 0;
     this->bounds = vector<pair<int,int> > (n);
@@ -21,14 +26,13 @@ RTree::RTree(int n)
     this->n = n;
     this->root = nullptr;
     this->M = 4096/(4*n+1);
-    // this->M = 1024/(4*n+1);
     this->m = this->M/2;
     this->num_nodes = 0;
 }
 
 double calculate_distance(vector<pair<int,int> > &point1, vector<pair<int,int> > &point2){
 	double out=0;
-	for(int i=0;i<point1.size();i++){
+	for(int i=0;i<point2.size();i++){
 		out+=((point1[i].first-point2[i].first)*(point1[i].first-point2[i].first));
 	}
 	return sqrt(out);
@@ -89,19 +93,12 @@ void NNDistance(RTreeNode* node, vector<pair<int,int> > &point, vector<double> &
 	}
 }
 
-// double min_max_dist(vector<pair<int,int> > &point, vector<pair<int,int> > &rectangle){
-
-// }
-
-
-
 // Read the data of a single RTreeNode from file stream and return the constructed node object
 RTreeNode* read_node(fstream& f, int m, int M, int n)
 {
 	int node_id,num_entries,isLeaf;
 	f>>node_id>>num_entries>>isLeaf;
 	RTreeNode* node = new RTreeNode(m,M,n);
-	// node->num_entries = num_entries;
 	node->num_entries = 0;
 	node->node_id = node_id;
 	node->isLeaf = isLeaf;
@@ -111,9 +108,12 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
 	if(node->isLeaf){
 		node->num_entries=num_entries;
 		node->child_bounds = vector<vector<pair<int,int> > > (num_entries,vector<pair<int,int> > (n));
+		vector<pair<int,int> > v;
 		for(int i=0;i<num_entries;i++){
 			for(int j=0;j<n;j++){
-				f>>node->child_bounds[i][j].first>>node->child_bounds[i][j].second;
+				int a,b;
+				f>>a>>b;
+				node->child_bounds[i][j] = make_pair(a,b);
 			}
 		}
 	}
@@ -153,15 +153,30 @@ RTree* load_tree(string filename)
 }
 
 int main(){
-	RTree* tree = load_tree("n2Tree.txt");
-	cout<<tree->root->num_entries<<endl;
-	vector<pair<int,int> > point;
-	point.push_back(make_pair(1,1));
-	// point.push_back(make_pair(9,9));
-	point.push_back(make_pair(40,40));
-	long long count = 0;
-	vector<double> distances;
-	stack<RTreeNode*> st;
-	NNDistance(tree->root,point,distances,5,st,count);
-	cout<<count<<endl;
+	int n=100;
+	RTree* tree = load_tree("n"+to_string(n)+"Tree.txt");
+	srand(time(0));
+	long long avg_count = 0;
+	double avg_time = 0.0;
+	for(int i=0;i<50;i++){
+		vector<pair<int,int> > point;
+		for(int j=0;j<n;j++){
+			int rand1=30*(float)rand()/RAND_MAX+10;
+			point.push_back(make_pair(rand1,rand1));
+		}
+		long long count=0;
+		vector<double> distances;
+		stack<RTreeNode*> st;
+		clock_t begin = clock(); 
+		NNDistance(tree->root,point,distances,5,st,count);
+		clock_t end = clock();
+		double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+		
+		avg_count+=count;
+		avg_time+=elapsed_secs;
+		cout<<avg_count/(i+1)<<" "<<avg_time/(i+1)<<endl;
+	}
+
+	cout<<"average count: "<<avg_count/50<<endl;
+	cout<<"average time: "<<avg_time/50<<endl;
 }

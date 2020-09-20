@@ -13,8 +13,6 @@ using namespace std;
 // Constructor for RTreeNode class
 RTreeNode::RTreeNode(int m, int M, int n)
 {
-    // this->pointers = vector<RTreeNode*>(M,nullptr);
-    // this->child_bounds = vector<vector<pair<int,int> > >(M);
     this->isLeaf = true;
     this->num_entries = 0;
     this->bounds = vector<pair<int,int> > (n);
@@ -26,7 +24,6 @@ RTree::RTree(int n)
     this->n = n;
     this->root = nullptr;
     this->M = 4096/(4*n+1);
-    // this->M = 1024/(4*n+1);
     this->m = this->M/2;
     this->num_nodes = 0;
 }
@@ -34,8 +31,10 @@ RTree::RTree(int n)
 // main function for creating RTree and storing in file
 int main()
 {
-    int n = 2;
+    int n;
+    cout<<"Enter number of dimensions: ";
+    cin>>n;
     RTree* tree = new RTree(n);
-    tree->insert("data.txt","n2Tree.txt");
+    tree->insert("data.txt","n50Tree.txt");
     return 0;
 }

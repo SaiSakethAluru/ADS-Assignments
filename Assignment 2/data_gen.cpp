@@ -19,7 +19,7 @@ int main()
 	cout<<"Enter number of dimensions (n): ";
 	cin>>n;
 	cout<<"Generating data"<<endl;
-	int N=1000000, rand1, rand2;
+	int N=500000, rand1, rand2;
 	srand(time(0));
 	ofstream fout;
 	fout.open("data.txt");
