@@ -7,10 +7,13 @@ class Nearest {
 public:
 	int dist;
 	vector<pair<int,int> > bounds;
-	Nearest()
+	Nearest(int n)
 	{
 		dist = INT_MAX;
+		this->bounds = vector<pair<int,int> > (n);
 	}
+	
+
 };
 
 RTreeNode::RTreeNode(int m, int M, int n)
@@ -44,6 +47,15 @@ RTreeNode* read_node(fstream& f, int m, int M, int n)
 	node->isLeaf = isLeaf;
 	for(int i=0;i<n;i++){
 		f>>node->bounds[i].first>>node->bounds[i].second;
+	}
+	if(node->isLeaf){
+		node->num_entries=num_entries;
+		node->child_bounds = vector<vector<pair<int,int> > > (num_entries,vector<pair<int,int> > (n));
+		for(int i=0;i<num_entries;i++){
+			for(int j=0;j<n;j++){
+				f>>node->child_bounds[i][j].first>>node->child_bounds[i][j].second;
+			}
+		}
 	}
 	return node;
 }
@@ -228,32 +240,32 @@ void downwardPruning(vector<RTreeNode *> &branchlist, vector<int> &mindist_list,
 	vector<int> list3;
 	int i,j;
 	int c;
-	for(i=0;i<branchlist.size();i++)
-	{
-		c = 0;
-		for(j=0;j<branchlist.size();j++)
-		{
-			if(j!=i)
-			{
-				if(mindist_list[i]>minmaxdist_list[j])
-				{
-					c++;
-				}
-			}
-		}
-		if(c==0)
-		{
-			list1.push_back(branchlist[i]);
-			list2.push_back(mindist_list[i]);
-			list3.push_back(minmaxdist_list[i]);
-		}
-	}
-	branchlist = list1;
-	mindist_list = list2;
-	minmaxdist_list = list3;
-	list1.clear();
-	list2.clear();
-	list3.clear();
+	// for(i=0;i<branchlist.size();i++)
+	// {
+	// 	c = 0;
+	// 	for(j=0;j<branchlist.size();j++)
+	// 	{
+	// 		if(j!=i)
+	// 		{
+	// 			if(mindist_list[i]>minmaxdist_list[j])
+	// 			{
+	// 				c++;
+	// 			}
+	// 		}
+	// 	}
+	// 	if(c==0)
+	// 	{
+	// 		list1.push_back(branchlist[i]);
+	// 		list2.push_back(mindist_list[i]);
+	// 		list3.push_back(minmaxdist_list[i]);
+	// 	}
+	// }
+	// branchlist = list1;
+	// mindist_list = list2;
+	// minmaxdist_list = list3;
+	// list1.clear();
+	// list2.clear();
+	// list3.clear();
 	for(i=0;i<branchlist.size();i++)
 	{
 		if(mindist_list[i]<=N->dist)
@@ -281,16 +293,16 @@ void NNsearch(RTreeNode *root, vector<int> &point,Nearest* N,int &count)
 		int dist1;
 		// cout<<root->bounds.size()<<endl;
 		// cout<<root->bounds[0].first<<" "<<root->bounds[0].second<<" "<<root->bounds[1].first<<" "<<root->bounds[0].second<<endl;
-		// for(i=0;i<root->num_entries;i++)
-		// {
-			dist1 = mindist(point,root->bounds);
+		for(i=0;i<root->num_entries;i++)
+		{
+			dist1 = mindist(point,root->child_bounds[i]);
 			// cout<<"sasi2"<<endl;
 			if(dist1<N->dist)
 			{
 				N->dist = dist1;
-				N->bounds = root->bounds;
+				N->bounds = root->child_bounds[i];
 			}
-		// }
+		}
 	}
 	else
 	{
@@ -312,7 +324,7 @@ void NNsearch(RTreeNode *root, vector<int> &point,Nearest* N,int &count)
 		sortBranchList(branchlist,mindist_list,minmaxdist_list,0,i-1);
 		// cout<<"sasi6"<<endl;
 		// cout<<branchlist.size()<<endl;
-		// downwardPruning(branchlist,mindist_list,minmaxdist_list,N);
+		downwardPruning(branchlist,mindist_list,minmaxdist_list,N);
 		// cout<<"sasi7"<<endl;
 		// cout<<branchlist.size()<<endl;
 		if(branchlist.size() > 0)
@@ -340,6 +352,7 @@ void NNsearch(RTreeNode *root, vector<int> &point,Nearest* N,int &count)
 
 int main()
 {
+
 	RTree* Tree = load_tree("n2Tree.txt"); 
 	int n = 2;
 	// cout<<"Give Number of Dimensions: "<<endl;
@@ -352,7 +365,7 @@ int main()
 	for(int j =0;j<50;j++)
 	{
 		vector<int> point;  // The region to be searched
-		Nearest* N = new Nearest();
+		Nearest* N = new Nearest(n);
 		for(int i=0;i<n;i++)
 		{
 			rand1=30*(float)rand()/RAND_MAX;
