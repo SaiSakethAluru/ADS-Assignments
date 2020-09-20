@@ -9,5 +9,5 @@
 3. Running Nearest neighbour search - using the file `NN_search.cpp` <br>
 `g++ -std=c++11 NN_search.cpp -o nn_search && ./nn_search`
 
-4. Running KNN search - using the file `KNN.cpp`
+4. Running KNN search - using the file `KNN.cpp` <br>
 `g++ -std=c++11 KNN.cpp -o knn && ./knn`
