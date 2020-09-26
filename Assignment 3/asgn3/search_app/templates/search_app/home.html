@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Image and Document search</title>
+</head>
+<body>
+    <form action = "/" method = "POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" name="Submit" id = "submit button">
+    </form>
+    <!-- insert search results  -->
+    {% for image in images %}
+        <a href = {{image.doc_url}} target="_blank">
+            <img src= {{image.image_url}} />
+        </a>
+        <br />
+    {% endfor %}
+</body>
