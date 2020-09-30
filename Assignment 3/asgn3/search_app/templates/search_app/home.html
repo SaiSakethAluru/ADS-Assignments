@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <head>
     <title>Image and Document search</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 </head>
 <body>
+    <h3> Query input </h3>
     <form action = "/" method = "POST" enctype="multipart/form-data">
         {% csrf_token %}
         {{form.as_p}}
         <input type="submit" name="Submit" id = "submit button">
     </form>
     <!-- insert search results  -->
-    {% for image in images %}
-        <a href = {{image.doc_url}} target="_blank">
-            <img src= {{image.image_url}} />
-        </a>
-        <br />
-    {% endfor %}
+    {% if images %}
+    <div>
+        <hr />
+        <div style="float:left">
+        <h3> Search results </h3>
+        <ol>
+        {% for image in images %}
+            <li>
+                <a href = {{image.doc_url}} target="_blank">
+                    <img src= {{image.image_url}} style="width:320px; height:180px"/>
+                </a>
+            </li>
+            <br />
+        {% endfor %}
+        </ol>
+        </div>
+        <div style="float: right">
+            <h4> Query image given </h4>
+            {% load static %}
+            <img src="{% static 'search_app/query_images/query.jpg' %}" style="width:480px; height: 270px;"/>
+        </div>
+    </div>
+    {% endif %}
 </body>

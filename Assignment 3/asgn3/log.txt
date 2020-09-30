@@ -1,0 +1,9 @@
+Restoring R-Tree
+Tree restored from : rTree_Histogram.txt
+Total Nodes : 1364
+hello500533
+/home/saketh/anaconda3/lib/python3.7/site-packages/sklearn/base.py:306: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.23.2 when using version 0.21.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/saketh/anaconda3/lib/python3.7/site-packages/sklearn/base.py:306: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.23.2 when using version 0.21.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+Searching [' rohit']
