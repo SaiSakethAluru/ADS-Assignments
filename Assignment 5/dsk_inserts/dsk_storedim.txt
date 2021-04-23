@@ -1,0 +1,2000 @@
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (0, "sname0", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (1, "sname1", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (2, "sname2", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (3, "sname3", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (4, "sname4", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (5, "sname5", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (6, "sname6", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (7, "sname7", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (8, "sname8", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (9, "sname9", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (10, "sname10", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (11, "sname11", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (12, "sname12", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (13, "sname13", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (14, "sname14", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (15, "sname15", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (16, "sname16", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (17, "sname17", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (18, "sname18", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (19, "sname19", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (20, "sname20", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (21, "sname21", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (22, "sname22", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (23, "sname23", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (24, "sname24", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (25, "sname25", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (26, "sname26", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (27, "sname27", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (28, "sname28", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (29, "sname29", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (30, "sname30", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (31, "sname31", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (32, "sname32", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (33, "sname33", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (34, "sname34", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (35, "sname35", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (36, "sname36", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (37, "sname37", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (38, "sname38", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (39, "sname39", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (40, "sname40", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (41, "sname41", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (42, "sname42", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (43, "sname43", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (44, "sname44", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (45, "sname45", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (46, "sname46", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (47, "sname47", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (48, "sname48", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (49, "sname49", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (50, "sname50", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (51, "sname51", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (52, "sname52", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (53, "sname53", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (54, "sname54", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (55, "sname55", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (56, "sname56", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (57, "sname57", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (58, "sname58", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (59, "sname59", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (60, "sname60", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (61, "sname61", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (62, "sname62", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (63, "sname63", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (64, "sname64", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (65, "sname65", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (66, "sname66", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (67, "sname67", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (68, "sname68", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (69, "sname69", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (70, "sname70", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (71, "sname71", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (72, "sname72", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (73, "sname73", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (74, "sname74", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (75, "sname75", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (76, "sname76", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (77, "sname77", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (78, "sname78", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (79, "sname79", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (80, "sname80", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (81, "sname81", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (82, "sname82", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (83, "sname83", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (84, "sname84", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (85, "sname85", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (86, "sname86", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (87, "sname87", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (88, "sname88", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (89, "sname89", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (90, "sname90", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (91, "sname91", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (92, "sname92", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (93, "sname93", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (94, "sname94", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (95, "sname95", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (96, "sname96", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (97, "sname97", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (98, "sname98", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (99, "sname99", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (100, "sname100", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (101, "sname101", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (102, "sname102", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (103, "sname103", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (104, "sname104", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (105, "sname105", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (106, "sname106", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (107, "sname107", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (108, "sname108", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (109, "sname109", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (110, "sname110", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (111, "sname111", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (112, "sname112", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (113, "sname113", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (114, "sname114", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (115, "sname115", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (116, "sname116", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (117, "sname117", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (118, "sname118", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (119, "sname119", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (120, "sname120", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (121, "sname121", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (122, "sname122", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (123, "sname123", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (124, "sname124", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (125, "sname125", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (126, "sname126", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (127, "sname127", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (128, "sname128", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (129, "sname129", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (130, "sname130", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (131, "sname131", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (132, "sname132", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (133, "sname133", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (134, "sname134", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (135, "sname135", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (136, "sname136", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (137, "sname137", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (138, "sname138", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (139, "sname139", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (140, "sname140", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (141, "sname141", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (142, "sname142", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (143, "sname143", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (144, "sname144", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (145, "sname145", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (146, "sname146", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (147, "sname147", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (148, "sname148", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (149, "sname149", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (150, "sname150", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (151, "sname151", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (152, "sname152", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (153, "sname153", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (154, "sname154", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (155, "sname155", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (156, "sname156", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (157, "sname157", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (158, "sname158", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (159, "sname159", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (160, "sname160", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (161, "sname161", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (162, "sname162", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (163, "sname163", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (164, "sname164", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (165, "sname165", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (166, "sname166", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (167, "sname167", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (168, "sname168", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (169, "sname169", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (170, "sname170", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (171, "sname171", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (172, "sname172", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (173, "sname173", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (174, "sname174", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (175, "sname175", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (176, "sname176", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (177, "sname177", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (178, "sname178", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (179, "sname179", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (180, "sname180", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (181, "sname181", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (182, "sname182", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (183, "sname183", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (184, "sname184", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (185, "sname185", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (186, "sname186", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (187, "sname187", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (188, "sname188", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (189, "sname189", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (190, "sname190", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (191, "sname191", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (192, "sname192", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (193, "sname193", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (194, "sname194", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (195, "sname195", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (196, "sname196", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (197, "sname197", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (198, "sname198", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (199, "sname199", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (200, "sname200", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (201, "sname201", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (202, "sname202", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (203, "sname203", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (204, "sname204", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (205, "sname205", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (206, "sname206", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (207, "sname207", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (208, "sname208", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (209, "sname209", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (210, "sname210", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (211, "sname211", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (212, "sname212", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (213, "sname213", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (214, "sname214", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (215, "sname215", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (216, "sname216", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (217, "sname217", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (218, "sname218", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (219, "sname219", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (220, "sname220", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (221, "sname221", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (222, "sname222", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (223, "sname223", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (224, "sname224", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (225, "sname225", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (226, "sname226", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (227, "sname227", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (228, "sname228", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (229, "sname229", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (230, "sname230", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (231, "sname231", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (232, "sname232", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (233, "sname233", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (234, "sname234", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (235, "sname235", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (236, "sname236", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (237, "sname237", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (238, "sname238", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (239, "sname239", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (240, "sname240", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (241, "sname241", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (242, "sname242", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (243, "sname243", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (244, "sname244", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (245, "sname245", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (246, "sname246", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (247, "sname247", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (248, "sname248", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (249, "sname249", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (250, "sname250", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (251, "sname251", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (252, "sname252", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (253, "sname253", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (254, "sname254", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (255, "sname255", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (256, "sname256", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (257, "sname257", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (258, "sname258", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (259, "sname259", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (260, "sname260", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (261, "sname261", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (262, "sname262", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (263, "sname263", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (264, "sname264", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (265, "sname265", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (266, "sname266", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (267, "sname267", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (268, "sname268", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (269, "sname269", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (270, "sname270", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (271, "sname271", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (272, "sname272", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (273, "sname273", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (274, "sname274", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (275, "sname275", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (276, "sname276", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (277, "sname277", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (278, "sname278", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (279, "sname279", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (280, "sname280", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (281, "sname281", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (282, "sname282", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (283, "sname283", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (284, "sname284", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (285, "sname285", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (286, "sname286", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (287, "sname287", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (288, "sname288", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (289, "sname289", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (290, "sname290", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (291, "sname291", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (292, "sname292", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (293, "sname293", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (294, "sname294", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (295, "sname295", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (296, "sname296", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (297, "sname297", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (298, "sname298", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (299, "sname299", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (300, "sname300", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (301, "sname301", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (302, "sname302", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (303, "sname303", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (304, "sname304", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (305, "sname305", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (306, "sname306", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (307, "sname307", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (308, "sname308", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (309, "sname309", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (310, "sname310", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (311, "sname311", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (312, "sname312", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (313, "sname313", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (314, "sname314", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (315, "sname315", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (316, "sname316", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (317, "sname317", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (318, "sname318", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (319, "sname319", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (320, "sname320", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (321, "sname321", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (322, "sname322", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (323, "sname323", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (324, "sname324", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (325, "sname325", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (326, "sname326", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (327, "sname327", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (328, "sname328", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (329, "sname329", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (330, "sname330", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (331, "sname331", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (332, "sname332", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (333, "sname333", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (334, "sname334", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (335, "sname335", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (336, "sname336", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (337, "sname337", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (338, "sname338", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (339, "sname339", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (340, "sname340", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (341, "sname341", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (342, "sname342", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (343, "sname343", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (344, "sname344", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (345, "sname345", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (346, "sname346", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (347, "sname347", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (348, "sname348", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (349, "sname349", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (350, "sname350", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (351, "sname351", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (352, "sname352", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (353, "sname353", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (354, "sname354", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (355, "sname355", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (356, "sname356", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (357, "sname357", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (358, "sname358", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (359, "sname359", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (360, "sname360", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (361, "sname361", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (362, "sname362", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (363, "sname363", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (364, "sname364", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (365, "sname365", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (366, "sname366", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (367, "sname367", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (368, "sname368", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (369, "sname369", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (370, "sname370", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (371, "sname371", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (372, "sname372", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (373, "sname373", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (374, "sname374", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (375, "sname375", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (376, "sname376", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (377, "sname377", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (378, "sname378", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (379, "sname379", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (380, "sname380", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (381, "sname381", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (382, "sname382", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (383, "sname383", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (384, "sname384", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (385, "sname385", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (386, "sname386", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (387, "sname387", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (388, "sname388", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (389, "sname389", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (390, "sname390", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (391, "sname391", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (392, "sname392", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (393, "sname393", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (394, "sname394", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (395, "sname395", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (396, "sname396", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (397, "sname397", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (398, "sname398", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (399, "sname399", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (400, "sname400", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (401, "sname401", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (402, "sname402", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (403, "sname403", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (404, "sname404", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (405, "sname405", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (406, "sname406", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (407, "sname407", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (408, "sname408", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (409, "sname409", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (410, "sname410", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (411, "sname411", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (412, "sname412", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (413, "sname413", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (414, "sname414", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (415, "sname415", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (416, "sname416", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (417, "sname417", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (418, "sname418", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (419, "sname419", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (420, "sname420", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (421, "sname421", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (422, "sname422", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (423, "sname423", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (424, "sname424", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (425, "sname425", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (426, "sname426", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (427, "sname427", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (428, "sname428", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (429, "sname429", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (430, "sname430", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (431, "sname431", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (432, "sname432", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (433, "sname433", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (434, "sname434", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (435, "sname435", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (436, "sname436", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (437, "sname437", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (438, "sname438", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (439, "sname439", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (440, "sname440", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (441, "sname441", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (442, "sname442", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (443, "sname443", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (444, "sname444", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (445, "sname445", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (446, "sname446", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (447, "sname447", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (448, "sname448", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (449, "sname449", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (450, "sname450", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (451, "sname451", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (452, "sname452", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (453, "sname453", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (454, "sname454", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (455, "sname455", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (456, "sname456", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (457, "sname457", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (458, "sname458", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (459, "sname459", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (460, "sname460", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (461, "sname461", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (462, "sname462", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (463, "sname463", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (464, "sname464", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (465, "sname465", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (466, "sname466", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (467, "sname467", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (468, "sname468", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (469, "sname469", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (470, "sname470", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (471, "sname471", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (472, "sname472", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (473, "sname473", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (474, "sname474", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (475, "sname475", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (476, "sname476", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (477, "sname477", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (478, "sname478", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (479, "sname479", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (480, "sname480", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (481, "sname481", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (482, "sname482", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (483, "sname483", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (484, "sname484", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (485, "sname485", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (486, "sname486", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (487, "sname487", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (488, "sname488", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (489, "sname489", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (490, "sname490", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (491, "sname491", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (492, "sname492", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (493, "sname493", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (494, "sname494", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (495, "sname495", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (496, "sname496", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (497, "sname497", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (498, "sname498", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (499, "sname499", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (500, "sname500", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (501, "sname501", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (502, "sname502", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (503, "sname503", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (504, "sname504", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (505, "sname505", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (506, "sname506", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (507, "sname507", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (508, "sname508", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (509, "sname509", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (510, "sname510", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (511, "sname511", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (512, "sname512", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (513, "sname513", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (514, "sname514", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (515, "sname515", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (516, "sname516", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (517, "sname517", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (518, "sname518", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (519, "sname519", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (520, "sname520", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (521, "sname521", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (522, "sname522", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (523, "sname523", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (524, "sname524", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (525, "sname525", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (526, "sname526", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (527, "sname527", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (528, "sname528", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (529, "sname529", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (530, "sname530", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (531, "sname531", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (532, "sname532", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (533, "sname533", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (534, "sname534", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (535, "sname535", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (536, "sname536", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (537, "sname537", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (538, "sname538", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (539, "sname539", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (540, "sname540", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (541, "sname541", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (542, "sname542", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (543, "sname543", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (544, "sname544", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (545, "sname545", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (546, "sname546", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (547, "sname547", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (548, "sname548", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (549, "sname549", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (550, "sname550", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (551, "sname551", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (552, "sname552", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (553, "sname553", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (554, "sname554", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (555, "sname555", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (556, "sname556", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (557, "sname557", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (558, "sname558", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (559, "sname559", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (560, "sname560", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (561, "sname561", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (562, "sname562", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (563, "sname563", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (564, "sname564", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (565, "sname565", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (566, "sname566", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (567, "sname567", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (568, "sname568", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (569, "sname569", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (570, "sname570", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (571, "sname571", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (572, "sname572", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (573, "sname573", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (574, "sname574", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (575, "sname575", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (576, "sname576", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (577, "sname577", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (578, "sname578", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (579, "sname579", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (580, "sname580", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (581, "sname581", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (582, "sname582", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (583, "sname583", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (584, "sname584", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (585, "sname585", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (586, "sname586", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (587, "sname587", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (588, "sname588", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (589, "sname589", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (590, "sname590", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (591, "sname591", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (592, "sname592", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (593, "sname593", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (594, "sname594", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (595, "sname595", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (596, "sname596", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (597, "sname597", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (598, "sname598", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (599, "sname599", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (600, "sname600", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (601, "sname601", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (602, "sname602", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (603, "sname603", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (604, "sname604", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (605, "sname605", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (606, "sname606", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (607, "sname607", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (608, "sname608", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (609, "sname609", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (610, "sname610", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (611, "sname611", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (612, "sname612", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (613, "sname613", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (614, "sname614", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (615, "sname615", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (616, "sname616", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (617, "sname617", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (618, "sname618", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (619, "sname619", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (620, "sname620", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (621, "sname621", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (622, "sname622", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (623, "sname623", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (624, "sname624", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (625, "sname625", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (626, "sname626", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (627, "sname627", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (628, "sname628", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (629, "sname629", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (630, "sname630", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (631, "sname631", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (632, "sname632", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (633, "sname633", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (634, "sname634", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (635, "sname635", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (636, "sname636", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (637, "sname637", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (638, "sname638", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (639, "sname639", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (640, "sname640", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (641, "sname641", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (642, "sname642", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (643, "sname643", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (644, "sname644", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (645, "sname645", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (646, "sname646", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (647, "sname647", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (648, "sname648", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (649, "sname649", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (650, "sname650", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (651, "sname651", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (652, "sname652", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (653, "sname653", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (654, "sname654", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (655, "sname655", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (656, "sname656", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (657, "sname657", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (658, "sname658", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (659, "sname659", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (660, "sname660", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (661, "sname661", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (662, "sname662", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (663, "sname663", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (664, "sname664", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (665, "sname665", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (666, "sname666", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (667, "sname667", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (668, "sname668", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (669, "sname669", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (670, "sname670", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (671, "sname671", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (672, "sname672", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (673, "sname673", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (674, "sname674", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (675, "sname675", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (676, "sname676", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (677, "sname677", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (678, "sname678", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (679, "sname679", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (680, "sname680", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (681, "sname681", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (682, "sname682", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (683, "sname683", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (684, "sname684", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (685, "sname685", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (686, "sname686", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (687, "sname687", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (688, "sname688", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (689, "sname689", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (690, "sname690", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (691, "sname691", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (692, "sname692", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (693, "sname693", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (694, "sname694", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (695, "sname695", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (696, "sname696", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (697, "sname697", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (698, "sname698", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (699, "sname699", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (700, "sname700", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (701, "sname701", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (702, "sname702", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (703, "sname703", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (704, "sname704", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (705, "sname705", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (706, "sname706", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (707, "sname707", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (708, "sname708", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (709, "sname709", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (710, "sname710", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (711, "sname711", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (712, "sname712", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (713, "sname713", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (714, "sname714", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (715, "sname715", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (716, "sname716", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (717, "sname717", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (718, "sname718", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (719, "sname719", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (720, "sname720", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (721, "sname721", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (722, "sname722", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (723, "sname723", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (724, "sname724", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (725, "sname725", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (726, "sname726", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (727, "sname727", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (728, "sname728", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (729, "sname729", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (730, "sname730", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (731, "sname731", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (732, "sname732", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (733, "sname733", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (734, "sname734", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (735, "sname735", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (736, "sname736", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (737, "sname737", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (738, "sname738", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (739, "sname739", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (740, "sname740", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (741, "sname741", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (742, "sname742", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (743, "sname743", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (744, "sname744", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (745, "sname745", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (746, "sname746", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (747, "sname747", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (748, "sname748", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (749, "sname749", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (750, "sname750", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (751, "sname751", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (752, "sname752", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (753, "sname753", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (754, "sname754", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (755, "sname755", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (756, "sname756", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (757, "sname757", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (758, "sname758", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (759, "sname759", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (760, "sname760", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (761, "sname761", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (762, "sname762", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (763, "sname763", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (764, "sname764", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (765, "sname765", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (766, "sname766", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (767, "sname767", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (768, "sname768", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (769, "sname769", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (770, "sname770", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (771, "sname771", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (772, "sname772", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (773, "sname773", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (774, "sname774", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (775, "sname775", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (776, "sname776", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (777, "sname777", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (778, "sname778", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (779, "sname779", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (780, "sname780", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (781, "sname781", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (782, "sname782", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (783, "sname783", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (784, "sname784", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (785, "sname785", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (786, "sname786", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (787, "sname787", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (788, "sname788", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (789, "sname789", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (790, "sname790", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (791, "sname791", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (792, "sname792", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (793, "sname793", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (794, "sname794", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (795, "sname795", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (796, "sname796", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (797, "sname797", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (798, "sname798", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (799, "sname799", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (800, "sname800", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (801, "sname801", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (802, "sname802", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (803, "sname803", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (804, "sname804", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (805, "sname805", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (806, "sname806", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (807, "sname807", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (808, "sname808", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (809, "sname809", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (810, "sname810", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (811, "sname811", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (812, "sname812", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (813, "sname813", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (814, "sname814", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (815, "sname815", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (816, "sname816", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (817, "sname817", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (818, "sname818", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (819, "sname819", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (820, "sname820", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (821, "sname821", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (822, "sname822", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (823, "sname823", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (824, "sname824", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (825, "sname825", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (826, "sname826", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (827, "sname827", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (828, "sname828", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (829, "sname829", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (830, "sname830", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (831, "sname831", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (832, "sname832", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (833, "sname833", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (834, "sname834", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (835, "sname835", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (836, "sname836", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (837, "sname837", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (838, "sname838", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (839, "sname839", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (840, "sname840", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (841, "sname841", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (842, "sname842", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (843, "sname843", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (844, "sname844", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (845, "sname845", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (846, "sname846", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (847, "sname847", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (848, "sname848", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (849, "sname849", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (850, "sname850", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (851, "sname851", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (852, "sname852", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (853, "sname853", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (854, "sname854", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (855, "sname855", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (856, "sname856", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (857, "sname857", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (858, "sname858", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (859, "sname859", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (860, "sname860", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (861, "sname861", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (862, "sname862", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (863, "sname863", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (864, "sname864", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (865, "sname865", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (866, "sname866", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (867, "sname867", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (868, "sname868", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (869, "sname869", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (870, "sname870", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (871, "sname871", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (872, "sname872", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (873, "sname873", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (874, "sname874", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (875, "sname875", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (876, "sname876", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (877, "sname877", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (878, "sname878", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (879, "sname879", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (880, "sname880", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (881, "sname881", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (882, "sname882", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (883, "sname883", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (884, "sname884", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (885, "sname885", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (886, "sname886", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (887, "sname887", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (888, "sname888", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (889, "sname889", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (890, "sname890", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (891, "sname891", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (892, "sname892", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (893, "sname893", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (894, "sname894", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (895, "sname895", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (896, "sname896", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (897, "sname897", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (898, "sname898", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (899, "sname899", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (900, "sname900", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (901, "sname901", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (902, "sname902", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (903, "sname903", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (904, "sname904", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (905, "sname905", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (906, "sname906", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (907, "sname907", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (908, "sname908", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (909, "sname909", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (910, "sname910", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (911, "sname911", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (912, "sname912", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (913, "sname913", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (914, "sname914", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (915, "sname915", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (916, "sname916", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (917, "sname917", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (918, "sname918", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (919, "sname919", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (920, "sname920", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (921, "sname921", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (922, "sname922", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (923, "sname923", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (924, "sname924", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (925, "sname925", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (926, "sname926", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (927, "sname927", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (928, "sname928", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (929, "sname929", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (930, "sname930", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (931, "sname931", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (932, "sname932", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (933, "sname933", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (934, "sname934", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (935, "sname935", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (936, "sname936", "Guwahati", "Assam", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (937, "sname937", "Kochi", "Kerala", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (938, "sname938", "Mumbai", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (939, "sname939", "Chennai", "Tamil Nadu", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (940, "sname940", "Kolkata", "West Bengal", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (941, "sname941", "Pune", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (942, "sname942", "Bengaluru", "Karnataka", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (943, "sname943", "Guwahati", "Assam", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (944, "sname944", "Kochi", "Kerala", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (945, "sname945", "Mumbai", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (946, "sname946", "Chennai", "Tamil Nadu", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (947, "sname947", "Kolkata", "West Bengal", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (948, "sname948", "Pune", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (949, "sname949", "Bengaluru", "Karnataka", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (950, "sname950", "Guwahati", "Assam", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (951, "sname951", "Kochi", "Kerala", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (952, "sname952", "Mumbai", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (953, "sname953", "Chennai", "Tamil Nadu", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (954, "sname954", "Kolkata", "West Bengal", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (955, "sname955", "Pune", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (956, "sname956", "Bengaluru", "Karnataka", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (957, "sname957", "Guwahati", "Assam", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (958, "sname958", "Kochi", "Kerala", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (959, "sname959", "Mumbai", "Maharastra", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (960, "sname960", "Chennai", "Tamil Nadu", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (961, "sname961", "Kolkata", "West Bengal", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (962, "sname962", "Pune", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (963, "sname963", "Bengaluru", "Karnataka", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (964, "sname964", "Guwahati", "Assam", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (965, "sname965", "Kochi", "Kerala", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (966, "sname966", "Mumbai", "Maharastra", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (967, "sname967", "Chennai", "Tamil Nadu", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (968, "sname968", "Kolkata", "West Bengal", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (969, "sname969", "Pune", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (970, "sname970", "Bengaluru", "Karnataka", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (971, "sname971", "Guwahati", "Assam", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (972, "sname972", "Kochi", "Kerala", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (973, "sname973", "Mumbai", "Maharastra", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (974, "sname974", "Chennai", "Tamil Nadu", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (975, "sname975", "Kolkata", "West Bengal", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (976, "sname976", "Pune", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (977, "sname977", "Bengaluru", "Karnataka", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (978, "sname978", "Guwahati", "Assam", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (979, "sname979", "Kochi", "Kerala", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (980, "sname980", "Mumbai", "Maharastra", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (981, "sname981", "Chennai", "Tamil Nadu", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (982, "sname982", "Kolkata", "West Bengal", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (983, "sname983", "Pune", "Maharastra", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (984, "sname984", "Bengaluru", "Karnataka", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (985, "sname985", "Guwahati", "Assam", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (986, "sname986", "Kochi", "Kerala", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (987, "sname987", "Mumbai", "Maharastra", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (988, "sname988", "Chennai", "Tamil Nadu", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (989, "sname989", "Kolkata", "West Bengal", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (990, "sname990", "Pune", "Maharastra", 123456);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (991, "sname991", "Bengaluru", "Karnataka", 234567);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (992, "sname992", "Guwahati", "Assam", 345678);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (993, "sname993", "Kochi", "Kerala", 456789);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (994, "sname994", "Mumbai", "Maharastra", 567890);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (995, "sname995", "Chennai", "Tamil Nadu", 678901);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (996, "sname996", "Kolkata", "West Bengal", 789012);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (997, "sname997", "Pune", "Maharastra", 890123);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (998, "sname998", "Bengaluru", "Karnataka", 901234);
+INSERT INTO dsk_storedim(scode, sname, city, state, pincode)
+VALUES (999, "sname999", "Guwahati", "Assam", 123456);

@@ -1,0 +1,2000 @@
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (0, "iname0", "GROCR", "PRS", 1);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (1, "iname1", "CONSM", "OFF", 2);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (2, "iname2", "FASHN", "MIL", 7);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (3, "iname3", "MEDCN", "PRS", 4);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (4, "iname4", "VGTBL", "OFF", 13);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (5, "iname5", "GROCR", "MIL", 14);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (6, "iname6", "CONSM", "PRS", 11);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (7, "iname7", "FASHN", "OFF", 8);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (8, "iname8", "MEDCN", "MIL", 25);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (9, "iname9", "VGTBL", "PRS", 26);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (10, "iname10", "GROCR", "OFF", 31);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (11, "iname11", "CONSM", "MIL", 28);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (12, "iname12", "FASHN", "PRS", 21);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (13, "iname13", "MEDCN", "OFF", 22);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (14, "iname14", "VGTBL", "MIL", 19);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (15, "iname15", "GROCR", "PRS", 16);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (16, "iname16", "CONSM", "OFF", 49);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (17, "iname17", "FASHN", "MIL", 50);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (18, "iname18", "MEDCN", "PRS", 55);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (19, "iname19", "VGTBL", "OFF", 52);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (20, "iname20", "GROCR", "MIL", 61);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (21, "iname21", "CONSM", "PRS", 62);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (22, "iname22", "FASHN", "OFF", 59);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (23, "iname23", "MEDCN", "MIL", 56);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (24, "iname24", "VGTBL", "PRS", 41);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (25, "iname25", "GROCR", "OFF", 42);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (26, "iname26", "CONSM", "MIL", 47);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (27, "iname27", "FASHN", "PRS", 44);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (28, "iname28", "MEDCN", "OFF", 37);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (29, "iname29", "VGTBL", "MIL", 38);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (30, "iname30", "GROCR", "PRS", 35);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (31, "iname31", "CONSM", "OFF", 32);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (32, "iname32", "FASHN", "MIL", 97);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (33, "iname33", "MEDCN", "PRS", 98);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (34, "iname34", "VGTBL", "OFF", 103);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (35, "iname35", "GROCR", "MIL", 100);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (36, "iname36", "CONSM", "PRS", 109);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (37, "iname37", "FASHN", "OFF", 110);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (38, "iname38", "MEDCN", "MIL", 107);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (39, "iname39", "VGTBL", "PRS", 104);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (40, "iname40", "GROCR", "OFF", 121);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (41, "iname41", "CONSM", "MIL", 122);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (42, "iname42", "FASHN", "PRS", 127);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (43, "iname43", "MEDCN", "OFF", 124);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (44, "iname44", "VGTBL", "MIL", 117);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (45, "iname45", "GROCR", "PRS", 118);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (46, "iname46", "CONSM", "OFF", 115);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (47, "iname47", "FASHN", "MIL", 112);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (48, "iname48", "MEDCN", "PRS", 81);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (49, "iname49", "VGTBL", "OFF", 82);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (50, "iname50", "GROCR", "MIL", 87);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (51, "iname51", "CONSM", "PRS", 84);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (52, "iname52", "FASHN", "OFF", 93);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (53, "iname53", "MEDCN", "MIL", 94);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (54, "iname54", "VGTBL", "PRS", 91);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (55, "iname55", "GROCR", "OFF", 88);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (56, "iname56", "CONSM", "MIL", 73);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (57, "iname57", "FASHN", "PRS", 74);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (58, "iname58", "MEDCN", "OFF", 79);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (59, "iname59", "VGTBL", "MIL", 76);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (60, "iname60", "GROCR", "PRS", 69);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (61, "iname61", "CONSM", "OFF", 70);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (62, "iname62", "FASHN", "MIL", 67);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (63, "iname63", "MEDCN", "PRS", 64);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (64, "iname64", "VGTBL", "OFF", 193);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (65, "iname65", "GROCR", "MIL", 194);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (66, "iname66", "CONSM", "PRS", 199);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (67, "iname67", "FASHN", "OFF", 196);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (68, "iname68", "MEDCN", "MIL", 205);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (69, "iname69", "VGTBL", "PRS", 206);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (70, "iname70", "GROCR", "OFF", 203);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (71, "iname71", "CONSM", "MIL", 200);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (72, "iname72", "FASHN", "PRS", 217);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (73, "iname73", "MEDCN", "OFF", 218);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (74, "iname74", "VGTBL", "MIL", 223);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (75, "iname75", "GROCR", "PRS", 220);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (76, "iname76", "CONSM", "OFF", 213);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (77, "iname77", "FASHN", "MIL", 214);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (78, "iname78", "MEDCN", "PRS", 211);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (79, "iname79", "VGTBL", "OFF", 208);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (80, "iname80", "GROCR", "MIL", 241);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (81, "iname81", "CONSM", "PRS", 242);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (82, "iname82", "FASHN", "OFF", 247);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (83, "iname83", "MEDCN", "MIL", 244);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (84, "iname84", "VGTBL", "PRS", 253);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (85, "iname85", "GROCR", "OFF", 254);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (86, "iname86", "CONSM", "MIL", 251);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (87, "iname87", "FASHN", "PRS", 248);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (88, "iname88", "MEDCN", "OFF", 233);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (89, "iname89", "VGTBL", "MIL", 234);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (90, "iname90", "GROCR", "PRS", 239);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (91, "iname91", "CONSM", "OFF", 236);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (92, "iname92", "FASHN", "MIL", 229);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (93, "iname93", "MEDCN", "PRS", 230);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (94, "iname94", "VGTBL", "OFF", 227);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (95, "iname95", "GROCR", "MIL", 224);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (96, "iname96", "CONSM", "PRS", 161);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (97, "iname97", "FASHN", "OFF", 162);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (98, "iname98", "MEDCN", "MIL", 167);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (99, "iname99", "VGTBL", "PRS", 164);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (100, "iname100", "GROCR", "OFF", 173);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (101, "iname101", "CONSM", "MIL", 174);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (102, "iname102", "FASHN", "PRS", 171);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (103, "iname103", "MEDCN", "OFF", 168);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (104, "iname104", "VGTBL", "MIL", 185);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (105, "iname105", "GROCR", "PRS", 186);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (106, "iname106", "CONSM", "OFF", 191);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (107, "iname107", "FASHN", "MIL", 188);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (108, "iname108", "MEDCN", "PRS", 181);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (109, "iname109", "VGTBL", "OFF", 182);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (110, "iname110", "GROCR", "MIL", 179);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (111, "iname111", "CONSM", "PRS", 176);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (112, "iname112", "FASHN", "OFF", 145);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (113, "iname113", "MEDCN", "MIL", 146);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (114, "iname114", "VGTBL", "PRS", 151);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (115, "iname115", "GROCR", "OFF", 148);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (116, "iname116", "CONSM", "MIL", 157);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (117, "iname117", "FASHN", "PRS", 158);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (118, "iname118", "MEDCN", "OFF", 155);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (119, "iname119", "VGTBL", "MIL", 152);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (120, "iname120", "GROCR", "PRS", 137);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (121, "iname121", "CONSM", "OFF", 138);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (122, "iname122", "FASHN", "MIL", 143);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (123, "iname123", "MEDCN", "PRS", 140);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (124, "iname124", "VGTBL", "OFF", 133);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (125, "iname125", "GROCR", "MIL", 134);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (126, "iname126", "CONSM", "PRS", 131);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (127, "iname127", "FASHN", "OFF", 128);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (128, "iname128", "MEDCN", "MIL", 385);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (129, "iname129", "VGTBL", "PRS", 386);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (130, "iname130", "GROCR", "OFF", 391);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (131, "iname131", "CONSM", "MIL", 388);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (132, "iname132", "FASHN", "PRS", 397);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (133, "iname133", "MEDCN", "OFF", 398);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (134, "iname134", "VGTBL", "MIL", 395);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (135, "iname135", "GROCR", "PRS", 392);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (136, "iname136", "CONSM", "OFF", 409);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (137, "iname137", "FASHN", "MIL", 410);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (138, "iname138", "MEDCN", "PRS", 415);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (139, "iname139", "VGTBL", "OFF", 412);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (140, "iname140", "GROCR", "MIL", 405);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (141, "iname141", "CONSM", "PRS", 406);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (142, "iname142", "FASHN", "OFF", 403);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (143, "iname143", "MEDCN", "MIL", 400);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (144, "iname144", "VGTBL", "PRS", 433);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (145, "iname145", "GROCR", "OFF", 434);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (146, "iname146", "CONSM", "MIL", 439);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (147, "iname147", "FASHN", "PRS", 436);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (148, "iname148", "MEDCN", "OFF", 445);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (149, "iname149", "VGTBL", "MIL", 446);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (150, "iname150", "GROCR", "PRS", 443);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (151, "iname151", "CONSM", "OFF", 440);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (152, "iname152", "FASHN", "MIL", 425);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (153, "iname153", "MEDCN", "PRS", 426);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (154, "iname154", "VGTBL", "OFF", 431);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (155, "iname155", "GROCR", "MIL", 428);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (156, "iname156", "CONSM", "PRS", 421);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (157, "iname157", "FASHN", "OFF", 422);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (158, "iname158", "MEDCN", "MIL", 419);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (159, "iname159", "VGTBL", "PRS", 416);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (160, "iname160", "GROCR", "OFF", 481);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (161, "iname161", "CONSM", "MIL", 482);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (162, "iname162", "FASHN", "PRS", 487);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (163, "iname163", "MEDCN", "OFF", 484);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (164, "iname164", "VGTBL", "MIL", 493);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (165, "iname165", "GROCR", "PRS", 494);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (166, "iname166", "CONSM", "OFF", 491);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (167, "iname167", "FASHN", "MIL", 488);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (168, "iname168", "MEDCN", "PRS", 505);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (169, "iname169", "VGTBL", "OFF", 506);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (170, "iname170", "GROCR", "MIL", 511);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (171, "iname171", "CONSM", "PRS", 508);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (172, "iname172", "FASHN", "OFF", 501);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (173, "iname173", "MEDCN", "MIL", 502);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (174, "iname174", "VGTBL", "PRS", 499);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (175, "iname175", "GROCR", "OFF", 496);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (176, "iname176", "CONSM", "MIL", 465);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (177, "iname177", "FASHN", "PRS", 466);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (178, "iname178", "MEDCN", "OFF", 471);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (179, "iname179", "VGTBL", "MIL", 468);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (180, "iname180", "GROCR", "PRS", 477);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (181, "iname181", "CONSM", "OFF", 478);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (182, "iname182", "FASHN", "MIL", 475);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (183, "iname183", "MEDCN", "PRS", 472);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (184, "iname184", "VGTBL", "OFF", 457);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (185, "iname185", "GROCR", "MIL", 458);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (186, "iname186", "CONSM", "PRS", 463);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (187, "iname187", "FASHN", "OFF", 460);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (188, "iname188", "MEDCN", "MIL", 453);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (189, "iname189", "VGTBL", "PRS", 454);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (190, "iname190", "GROCR", "OFF", 451);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (191, "iname191", "CONSM", "MIL", 448);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (192, "iname192", "FASHN", "PRS", 321);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (193, "iname193", "MEDCN", "OFF", 322);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (194, "iname194", "VGTBL", "MIL", 327);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (195, "iname195", "GROCR", "PRS", 324);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (196, "iname196", "CONSM", "OFF", 333);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (197, "iname197", "FASHN", "MIL", 334);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (198, "iname198", "MEDCN", "PRS", 331);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (199, "iname199", "VGTBL", "OFF", 328);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (200, "iname200", "GROCR", "MIL", 345);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (201, "iname201", "CONSM", "PRS", 346);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (202, "iname202", "FASHN", "OFF", 351);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (203, "iname203", "MEDCN", "MIL", 348);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (204, "iname204", "VGTBL", "PRS", 341);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (205, "iname205", "GROCR", "OFF", 342);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (206, "iname206", "CONSM", "MIL", 339);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (207, "iname207", "FASHN", "PRS", 336);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (208, "iname208", "MEDCN", "OFF", 369);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (209, "iname209", "VGTBL", "MIL", 370);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (210, "iname210", "GROCR", "PRS", 375);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (211, "iname211", "CONSM", "OFF", 372);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (212, "iname212", "FASHN", "MIL", 381);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (213, "iname213", "MEDCN", "PRS", 382);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (214, "iname214", "VGTBL", "OFF", 379);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (215, "iname215", "GROCR", "MIL", 376);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (216, "iname216", "CONSM", "PRS", 361);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (217, "iname217", "FASHN", "OFF", 362);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (218, "iname218", "MEDCN", "MIL", 367);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (219, "iname219", "VGTBL", "PRS", 364);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (220, "iname220", "GROCR", "OFF", 357);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (221, "iname221", "CONSM", "MIL", 358);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (222, "iname222", "FASHN", "PRS", 355);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (223, "iname223", "MEDCN", "OFF", 352);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (224, "iname224", "VGTBL", "MIL", 289);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (225, "iname225", "GROCR", "PRS", 290);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (226, "iname226", "CONSM", "OFF", 295);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (227, "iname227", "FASHN", "MIL", 292);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (228, "iname228", "MEDCN", "PRS", 301);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (229, "iname229", "VGTBL", "OFF", 302);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (230, "iname230", "GROCR", "MIL", 299);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (231, "iname231", "CONSM", "PRS", 296);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (232, "iname232", "FASHN", "OFF", 313);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (233, "iname233", "MEDCN", "MIL", 314);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (234, "iname234", "VGTBL", "PRS", 319);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (235, "iname235", "GROCR", "OFF", 316);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (236, "iname236", "CONSM", "MIL", 309);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (237, "iname237", "FASHN", "PRS", 310);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (238, "iname238", "MEDCN", "OFF", 307);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (239, "iname239", "VGTBL", "MIL", 304);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (240, "iname240", "GROCR", "PRS", 273);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (241, "iname241", "CONSM", "OFF", 274);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (242, "iname242", "FASHN", "MIL", 279);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (243, "iname243", "MEDCN", "PRS", 276);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (244, "iname244", "VGTBL", "OFF", 285);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (245, "iname245", "GROCR", "MIL", 286);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (246, "iname246", "CONSM", "PRS", 283);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (247, "iname247", "FASHN", "OFF", 280);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (248, "iname248", "MEDCN", "MIL", 265);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (249, "iname249", "VGTBL", "PRS", 266);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (250, "iname250", "GROCR", "OFF", 271);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (251, "iname251", "CONSM", "MIL", 268);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (252, "iname252", "FASHN", "PRS", 261);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (253, "iname253", "MEDCN", "OFF", 262);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (254, "iname254", "VGTBL", "MIL", 259);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (255, "iname255", "GROCR", "PRS", 256);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (256, "iname256", "CONSM", "OFF", 769);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (257, "iname257", "FASHN", "MIL", 770);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (258, "iname258", "MEDCN", "PRS", 775);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (259, "iname259", "VGTBL", "OFF", 772);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (260, "iname260", "GROCR", "MIL", 781);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (261, "iname261", "CONSM", "PRS", 782);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (262, "iname262", "FASHN", "OFF", 779);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (263, "iname263", "MEDCN", "MIL", 776);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (264, "iname264", "VGTBL", "PRS", 793);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (265, "iname265", "GROCR", "OFF", 794);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (266, "iname266", "CONSM", "MIL", 799);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (267, "iname267", "FASHN", "PRS", 796);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (268, "iname268", "MEDCN", "OFF", 789);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (269, "iname269", "VGTBL", "MIL", 790);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (270, "iname270", "GROCR", "PRS", 787);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (271, "iname271", "CONSM", "OFF", 784);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (272, "iname272", "FASHN", "MIL", 817);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (273, "iname273", "MEDCN", "PRS", 818);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (274, "iname274", "VGTBL", "OFF", 823);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (275, "iname275", "GROCR", "MIL", 820);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (276, "iname276", "CONSM", "PRS", 829);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (277, "iname277", "FASHN", "OFF", 830);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (278, "iname278", "MEDCN", "MIL", 827);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (279, "iname279", "VGTBL", "PRS", 824);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (280, "iname280", "GROCR", "OFF", 809);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (281, "iname281", "CONSM", "MIL", 810);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (282, "iname282", "FASHN", "PRS", 815);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (283, "iname283", "MEDCN", "OFF", 812);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (284, "iname284", "VGTBL", "MIL", 805);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (285, "iname285", "GROCR", "PRS", 806);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (286, "iname286", "CONSM", "OFF", 803);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (287, "iname287", "FASHN", "MIL", 800);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (288, "iname288", "MEDCN", "PRS", 865);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (289, "iname289", "VGTBL", "OFF", 866);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (290, "iname290", "GROCR", "MIL", 871);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (291, "iname291", "CONSM", "PRS", 868);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (292, "iname292", "FASHN", "OFF", 877);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (293, "iname293", "MEDCN", "MIL", 878);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (294, "iname294", "VGTBL", "PRS", 875);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (295, "iname295", "GROCR", "OFF", 872);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (296, "iname296", "CONSM", "MIL", 889);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (297, "iname297", "FASHN", "PRS", 890);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (298, "iname298", "MEDCN", "OFF", 895);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (299, "iname299", "VGTBL", "MIL", 892);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (300, "iname300", "GROCR", "PRS", 885);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (301, "iname301", "CONSM", "OFF", 886);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (302, "iname302", "FASHN", "MIL", 883);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (303, "iname303", "MEDCN", "PRS", 880);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (304, "iname304", "VGTBL", "OFF", 849);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (305, "iname305", "GROCR", "MIL", 850);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (306, "iname306", "CONSM", "PRS", 855);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (307, "iname307", "FASHN", "OFF", 852);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (308, "iname308", "MEDCN", "MIL", 861);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (309, "iname309", "VGTBL", "PRS", 862);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (310, "iname310", "GROCR", "OFF", 859);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (311, "iname311", "CONSM", "MIL", 856);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (312, "iname312", "FASHN", "PRS", 841);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (313, "iname313", "MEDCN", "OFF", 842);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (314, "iname314", "VGTBL", "MIL", 847);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (315, "iname315", "GROCR", "PRS", 844);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (316, "iname316", "CONSM", "OFF", 837);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (317, "iname317", "FASHN", "MIL", 838);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (318, "iname318", "MEDCN", "PRS", 835);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (319, "iname319", "VGTBL", "OFF", 832);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (320, "iname320", "GROCR", "MIL", 961);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (321, "iname321", "CONSM", "PRS", 962);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (322, "iname322", "FASHN", "OFF", 967);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (323, "iname323", "MEDCN", "MIL", 964);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (324, "iname324", "VGTBL", "PRS", 973);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (325, "iname325", "GROCR", "OFF", 974);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (326, "iname326", "CONSM", "MIL", 971);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (327, "iname327", "FASHN", "PRS", 968);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (328, "iname328", "MEDCN", "OFF", 985);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (329, "iname329", "VGTBL", "MIL", 986);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (330, "iname330", "GROCR", "PRS", 991);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (331, "iname331", "CONSM", "OFF", 988);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (332, "iname332", "FASHN", "MIL", 981);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (333, "iname333", "MEDCN", "PRS", 982);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (334, "iname334", "VGTBL", "OFF", 979);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (335, "iname335", "GROCR", "MIL", 976);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (336, "iname336", "CONSM", "PRS", 1009);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (337, "iname337", "FASHN", "OFF", 1010);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (338, "iname338", "MEDCN", "MIL", 1015);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (339, "iname339", "VGTBL", "PRS", 1012);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (340, "iname340", "GROCR", "OFF", 1021);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (341, "iname341", "CONSM", "MIL", 1022);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (342, "iname342", "FASHN", "PRS", 1019);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (343, "iname343", "MEDCN", "OFF", 1016);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (344, "iname344", "VGTBL", "MIL", 1001);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (345, "iname345", "GROCR", "PRS", 1002);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (346, "iname346", "CONSM", "OFF", 1007);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (347, "iname347", "FASHN", "MIL", 1004);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (348, "iname348", "MEDCN", "PRS", 997);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (349, "iname349", "VGTBL", "OFF", 998);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (350, "iname350", "GROCR", "MIL", 995);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (351, "iname351", "CONSM", "PRS", 992);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (352, "iname352", "FASHN", "OFF", 929);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (353, "iname353", "MEDCN", "MIL", 930);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (354, "iname354", "VGTBL", "PRS", 935);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (355, "iname355", "GROCR", "OFF", 932);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (356, "iname356", "CONSM", "MIL", 941);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (357, "iname357", "FASHN", "PRS", 942);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (358, "iname358", "MEDCN", "OFF", 939);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (359, "iname359", "VGTBL", "MIL", 936);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (360, "iname360", "GROCR", "PRS", 953);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (361, "iname361", "CONSM", "OFF", 954);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (362, "iname362", "FASHN", "MIL", 959);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (363, "iname363", "MEDCN", "PRS", 956);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (364, "iname364", "VGTBL", "OFF", 949);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (365, "iname365", "GROCR", "MIL", 950);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (366, "iname366", "CONSM", "PRS", 947);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (367, "iname367", "FASHN", "OFF", 944);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (368, "iname368", "MEDCN", "MIL", 913);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (369, "iname369", "VGTBL", "PRS", 914);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (370, "iname370", "GROCR", "OFF", 919);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (371, "iname371", "CONSM", "MIL", 916);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (372, "iname372", "FASHN", "PRS", 925);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (373, "iname373", "MEDCN", "OFF", 926);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (374, "iname374", "VGTBL", "MIL", 923);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (375, "iname375", "GROCR", "PRS", 920);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (376, "iname376", "CONSM", "OFF", 905);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (377, "iname377", "FASHN", "MIL", 906);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (378, "iname378", "MEDCN", "PRS", 911);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (379, "iname379", "VGTBL", "OFF", 908);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (380, "iname380", "GROCR", "MIL", 901);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (381, "iname381", "CONSM", "PRS", 902);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (382, "iname382", "FASHN", "OFF", 899);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (383, "iname383", "MEDCN", "MIL", 896);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (384, "iname384", "VGTBL", "PRS", 641);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (385, "iname385", "GROCR", "OFF", 642);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (386, "iname386", "CONSM", "MIL", 647);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (387, "iname387", "FASHN", "PRS", 644);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (388, "iname388", "MEDCN", "OFF", 653);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (389, "iname389", "VGTBL", "MIL", 654);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (390, "iname390", "GROCR", "PRS", 651);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (391, "iname391", "CONSM", "OFF", 648);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (392, "iname392", "FASHN", "MIL", 665);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (393, "iname393", "MEDCN", "PRS", 666);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (394, "iname394", "VGTBL", "OFF", 671);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (395, "iname395", "GROCR", "MIL", 668);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (396, "iname396", "CONSM", "PRS", 661);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (397, "iname397", "FASHN", "OFF", 662);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (398, "iname398", "MEDCN", "MIL", 659);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (399, "iname399", "VGTBL", "PRS", 656);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (400, "iname400", "GROCR", "OFF", 689);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (401, "iname401", "CONSM", "MIL", 690);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (402, "iname402", "FASHN", "PRS", 695);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (403, "iname403", "MEDCN", "OFF", 692);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (404, "iname404", "VGTBL", "MIL", 701);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (405, "iname405", "GROCR", "PRS", 702);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (406, "iname406", "CONSM", "OFF", 699);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (407, "iname407", "FASHN", "MIL", 696);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (408, "iname408", "MEDCN", "PRS", 681);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (409, "iname409", "VGTBL", "OFF", 682);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (410, "iname410", "GROCR", "MIL", 687);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (411, "iname411", "CONSM", "PRS", 684);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (412, "iname412", "FASHN", "OFF", 677);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (413, "iname413", "MEDCN", "MIL", 678);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (414, "iname414", "VGTBL", "PRS", 675);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (415, "iname415", "GROCR", "OFF", 672);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (416, "iname416", "CONSM", "MIL", 737);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (417, "iname417", "FASHN", "PRS", 738);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (418, "iname418", "MEDCN", "OFF", 743);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (419, "iname419", "VGTBL", "MIL", 740);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (420, "iname420", "GROCR", "PRS", 749);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (421, "iname421", "CONSM", "OFF", 750);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (422, "iname422", "FASHN", "MIL", 747);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (423, "iname423", "MEDCN", "PRS", 744);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (424, "iname424", "VGTBL", "OFF", 761);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (425, "iname425", "GROCR", "MIL", 762);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (426, "iname426", "CONSM", "PRS", 767);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (427, "iname427", "FASHN", "OFF", 764);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (428, "iname428", "MEDCN", "MIL", 757);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (429, "iname429", "VGTBL", "PRS", 758);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (430, "iname430", "GROCR", "OFF", 755);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (431, "iname431", "CONSM", "MIL", 752);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (432, "iname432", "FASHN", "PRS", 721);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (433, "iname433", "MEDCN", "OFF", 722);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (434, "iname434", "VGTBL", "MIL", 727);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (435, "iname435", "GROCR", "PRS", 724);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (436, "iname436", "CONSM", "OFF", 733);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (437, "iname437", "FASHN", "MIL", 734);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (438, "iname438", "MEDCN", "PRS", 731);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (439, "iname439", "VGTBL", "OFF", 728);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (440, "iname440", "GROCR", "MIL", 713);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (441, "iname441", "CONSM", "PRS", 714);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (442, "iname442", "FASHN", "OFF", 719);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (443, "iname443", "MEDCN", "MIL", 716);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (444, "iname444", "VGTBL", "PRS", 709);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (445, "iname445", "GROCR", "OFF", 710);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (446, "iname446", "CONSM", "MIL", 707);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (447, "iname447", "FASHN", "PRS", 704);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (448, "iname448", "MEDCN", "OFF", 577);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (449, "iname449", "VGTBL", "MIL", 578);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (450, "iname450", "GROCR", "PRS", 583);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (451, "iname451", "CONSM", "OFF", 580);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (452, "iname452", "FASHN", "MIL", 589);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (453, "iname453", "MEDCN", "PRS", 590);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (454, "iname454", "VGTBL", "OFF", 587);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (455, "iname455", "GROCR", "MIL", 584);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (456, "iname456", "CONSM", "PRS", 601);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (457, "iname457", "FASHN", "OFF", 602);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (458, "iname458", "MEDCN", "MIL", 607);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (459, "iname459", "VGTBL", "PRS", 604);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (460, "iname460", "GROCR", "OFF", 597);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (461, "iname461", "CONSM", "MIL", 598);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (462, "iname462", "FASHN", "PRS", 595);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (463, "iname463", "MEDCN", "OFF", 592);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (464, "iname464", "VGTBL", "MIL", 625);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (465, "iname465", "GROCR", "PRS", 626);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (466, "iname466", "CONSM", "OFF", 631);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (467, "iname467", "FASHN", "MIL", 628);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (468, "iname468", "MEDCN", "PRS", 637);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (469, "iname469", "VGTBL", "OFF", 638);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (470, "iname470", "GROCR", "MIL", 635);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (471, "iname471", "CONSM", "PRS", 632);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (472, "iname472", "FASHN", "OFF", 617);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (473, "iname473", "MEDCN", "MIL", 618);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (474, "iname474", "VGTBL", "PRS", 623);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (475, "iname475", "GROCR", "OFF", 620);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (476, "iname476", "CONSM", "MIL", 613);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (477, "iname477", "FASHN", "PRS", 614);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (478, "iname478", "MEDCN", "OFF", 611);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (479, "iname479", "VGTBL", "MIL", 608);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (480, "iname480", "GROCR", "PRS", 545);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (481, "iname481", "CONSM", "OFF", 546);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (482, "iname482", "FASHN", "MIL", 551);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (483, "iname483", "MEDCN", "PRS", 548);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (484, "iname484", "VGTBL", "OFF", 557);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (485, "iname485", "GROCR", "MIL", 558);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (486, "iname486", "CONSM", "PRS", 555);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (487, "iname487", "FASHN", "OFF", 552);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (488, "iname488", "MEDCN", "MIL", 569);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (489, "iname489", "VGTBL", "PRS", 570);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (490, "iname490", "GROCR", "OFF", 575);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (491, "iname491", "CONSM", "MIL", 572);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (492, "iname492", "FASHN", "PRS", 565);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (493, "iname493", "MEDCN", "OFF", 566);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (494, "iname494", "VGTBL", "MIL", 563);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (495, "iname495", "GROCR", "PRS", 560);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (496, "iname496", "CONSM", "OFF", 529);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (497, "iname497", "FASHN", "MIL", 530);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (498, "iname498", "MEDCN", "PRS", 535);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (499, "iname499", "VGTBL", "OFF", 532);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (500, "iname500", "GROCR", "MIL", 541);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (501, "iname501", "CONSM", "PRS", 542);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (502, "iname502", "FASHN", "OFF", 539);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (503, "iname503", "MEDCN", "MIL", 536);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (504, "iname504", "VGTBL", "PRS", 521);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (505, "iname505", "GROCR", "OFF", 522);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (506, "iname506", "CONSM", "MIL", 527);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (507, "iname507", "FASHN", "PRS", 524);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (508, "iname508", "MEDCN", "OFF", 517);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (509, "iname509", "VGTBL", "MIL", 518);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (510, "iname510", "GROCR", "PRS", 515);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (511, "iname511", "CONSM", "OFF", 512);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (512, "iname512", "FASHN", "MIL", 1537);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (513, "iname513", "MEDCN", "PRS", 1538);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (514, "iname514", "VGTBL", "OFF", 1543);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (515, "iname515", "GROCR", "MIL", 1540);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (516, "iname516", "CONSM", "PRS", 1549);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (517, "iname517", "FASHN", "OFF", 1550);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (518, "iname518", "MEDCN", "MIL", 1547);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (519, "iname519", "VGTBL", "PRS", 1544);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (520, "iname520", "GROCR", "OFF", 1561);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (521, "iname521", "CONSM", "MIL", 1562);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (522, "iname522", "FASHN", "PRS", 1567);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (523, "iname523", "MEDCN", "OFF", 1564);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (524, "iname524", "VGTBL", "MIL", 1557);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (525, "iname525", "GROCR", "PRS", 1558);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (526, "iname526", "CONSM", "OFF", 1555);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (527, "iname527", "FASHN", "MIL", 1552);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (528, "iname528", "MEDCN", "PRS", 1585);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (529, "iname529", "VGTBL", "OFF", 1586);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (530, "iname530", "GROCR", "MIL", 1591);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (531, "iname531", "CONSM", "PRS", 1588);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (532, "iname532", "FASHN", "OFF", 1597);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (533, "iname533", "MEDCN", "MIL", 1598);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (534, "iname534", "VGTBL", "PRS", 1595);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (535, "iname535", "GROCR", "OFF", 1592);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (536, "iname536", "CONSM", "MIL", 1577);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (537, "iname537", "FASHN", "PRS", 1578);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (538, "iname538", "MEDCN", "OFF", 1583);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (539, "iname539", "VGTBL", "MIL", 1580);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (540, "iname540", "GROCR", "PRS", 1573);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (541, "iname541", "CONSM", "OFF", 1574);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (542, "iname542", "FASHN", "MIL", 1571);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (543, "iname543", "MEDCN", "PRS", 1568);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (544, "iname544", "VGTBL", "OFF", 1633);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (545, "iname545", "GROCR", "MIL", 1634);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (546, "iname546", "CONSM", "PRS", 1639);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (547, "iname547", "FASHN", "OFF", 1636);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (548, "iname548", "MEDCN", "MIL", 1645);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (549, "iname549", "VGTBL", "PRS", 1646);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (550, "iname550", "GROCR", "OFF", 1643);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (551, "iname551", "CONSM", "MIL", 1640);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (552, "iname552", "FASHN", "PRS", 1657);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (553, "iname553", "MEDCN", "OFF", 1658);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (554, "iname554", "VGTBL", "MIL", 1663);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (555, "iname555", "GROCR", "PRS", 1660);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (556, "iname556", "CONSM", "OFF", 1653);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (557, "iname557", "FASHN", "MIL", 1654);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (558, "iname558", "MEDCN", "PRS", 1651);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (559, "iname559", "VGTBL", "OFF", 1648);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (560, "iname560", "GROCR", "MIL", 1617);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (561, "iname561", "CONSM", "PRS", 1618);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (562, "iname562", "FASHN", "OFF", 1623);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (563, "iname563", "MEDCN", "MIL", 1620);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (564, "iname564", "VGTBL", "PRS", 1629);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (565, "iname565", "GROCR", "OFF", 1630);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (566, "iname566", "CONSM", "MIL", 1627);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (567, "iname567", "FASHN", "PRS", 1624);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (568, "iname568", "MEDCN", "OFF", 1609);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (569, "iname569", "VGTBL", "MIL", 1610);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (570, "iname570", "GROCR", "PRS", 1615);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (571, "iname571", "CONSM", "OFF", 1612);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (572, "iname572", "FASHN", "MIL", 1605);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (573, "iname573", "MEDCN", "PRS", 1606);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (574, "iname574", "VGTBL", "OFF", 1603);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (575, "iname575", "GROCR", "MIL", 1600);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (576, "iname576", "CONSM", "PRS", 1729);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (577, "iname577", "FASHN", "OFF", 1730);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (578, "iname578", "MEDCN", "MIL", 1735);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (579, "iname579", "VGTBL", "PRS", 1732);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (580, "iname580", "GROCR", "OFF", 1741);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (581, "iname581", "CONSM", "MIL", 1742);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (582, "iname582", "FASHN", "PRS", 1739);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (583, "iname583", "MEDCN", "OFF", 1736);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (584, "iname584", "VGTBL", "MIL", 1753);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (585, "iname585", "GROCR", "PRS", 1754);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (586, "iname586", "CONSM", "OFF", 1759);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (587, "iname587", "FASHN", "MIL", 1756);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (588, "iname588", "MEDCN", "PRS", 1749);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (589, "iname589", "VGTBL", "OFF", 1750);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (590, "iname590", "GROCR", "MIL", 1747);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (591, "iname591", "CONSM", "PRS", 1744);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (592, "iname592", "FASHN", "OFF", 1777);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (593, "iname593", "MEDCN", "MIL", 1778);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (594, "iname594", "VGTBL", "PRS", 1783);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (595, "iname595", "GROCR", "OFF", 1780);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (596, "iname596", "CONSM", "MIL", 1789);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (597, "iname597", "FASHN", "PRS", 1790);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (598, "iname598", "MEDCN", "OFF", 1787);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (599, "iname599", "VGTBL", "MIL", 1784);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (600, "iname600", "GROCR", "PRS", 1769);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (601, "iname601", "CONSM", "OFF", 1770);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (602, "iname602", "FASHN", "MIL", 1775);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (603, "iname603", "MEDCN", "PRS", 1772);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (604, "iname604", "VGTBL", "OFF", 1765);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (605, "iname605", "GROCR", "MIL", 1766);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (606, "iname606", "CONSM", "PRS", 1763);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (607, "iname607", "FASHN", "OFF", 1760);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (608, "iname608", "MEDCN", "MIL", 1697);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (609, "iname609", "VGTBL", "PRS", 1698);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (610, "iname610", "GROCR", "OFF", 1703);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (611, "iname611", "CONSM", "MIL", 1700);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (612, "iname612", "FASHN", "PRS", 1709);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (613, "iname613", "MEDCN", "OFF", 1710);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (614, "iname614", "VGTBL", "MIL", 1707);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (615, "iname615", "GROCR", "PRS", 1704);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (616, "iname616", "CONSM", "OFF", 1721);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (617, "iname617", "FASHN", "MIL", 1722);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (618, "iname618", "MEDCN", "PRS", 1727);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (619, "iname619", "VGTBL", "OFF", 1724);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (620, "iname620", "GROCR", "MIL", 1717);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (621, "iname621", "CONSM", "PRS", 1718);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (622, "iname622", "FASHN", "OFF", 1715);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (623, "iname623", "MEDCN", "MIL", 1712);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (624, "iname624", "VGTBL", "PRS", 1681);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (625, "iname625", "GROCR", "OFF", 1682);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (626, "iname626", "CONSM", "MIL", 1687);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (627, "iname627", "FASHN", "PRS", 1684);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (628, "iname628", "MEDCN", "OFF", 1693);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (629, "iname629", "VGTBL", "MIL", 1694);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (630, "iname630", "GROCR", "PRS", 1691);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (631, "iname631", "CONSM", "OFF", 1688);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (632, "iname632", "FASHN", "MIL", 1673);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (633, "iname633", "MEDCN", "PRS", 1674);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (634, "iname634", "VGTBL", "OFF", 1679);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (635, "iname635", "GROCR", "MIL", 1676);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (636, "iname636", "CONSM", "PRS", 1669);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (637, "iname637", "FASHN", "OFF", 1670);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (638, "iname638", "MEDCN", "MIL", 1667);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (639, "iname639", "VGTBL", "PRS", 1664);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (640, "iname640", "GROCR", "OFF", 1921);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (641, "iname641", "CONSM", "MIL", 1922);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (642, "iname642", "FASHN", "PRS", 1927);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (643, "iname643", "MEDCN", "OFF", 1924);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (644, "iname644", "VGTBL", "MIL", 1933);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (645, "iname645", "GROCR", "PRS", 1934);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (646, "iname646", "CONSM", "OFF", 1931);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (647, "iname647", "FASHN", "MIL", 1928);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (648, "iname648", "MEDCN", "PRS", 1945);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (649, "iname649", "VGTBL", "OFF", 1946);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (650, "iname650", "GROCR", "MIL", 1951);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (651, "iname651", "CONSM", "PRS", 1948);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (652, "iname652", "FASHN", "OFF", 1941);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (653, "iname653", "MEDCN", "MIL", 1942);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (654, "iname654", "VGTBL", "PRS", 1939);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (655, "iname655", "GROCR", "OFF", 1936);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (656, "iname656", "CONSM", "MIL", 1969);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (657, "iname657", "FASHN", "PRS", 1970);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (658, "iname658", "MEDCN", "OFF", 1975);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (659, "iname659", "VGTBL", "MIL", 1972);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (660, "iname660", "GROCR", "PRS", 1981);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (661, "iname661", "CONSM", "OFF", 1982);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (662, "iname662", "FASHN", "MIL", 1979);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (663, "iname663", "MEDCN", "PRS", 1976);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (664, "iname664", "VGTBL", "OFF", 1961);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (665, "iname665", "GROCR", "MIL", 1962);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (666, "iname666", "CONSM", "PRS", 1967);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (667, "iname667", "FASHN", "OFF", 1964);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (668, "iname668", "MEDCN", "MIL", 1957);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (669, "iname669", "VGTBL", "PRS", 1958);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (670, "iname670", "GROCR", "OFF", 1955);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (671, "iname671", "CONSM", "MIL", 1952);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (672, "iname672", "FASHN", "PRS", 2017);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (673, "iname673", "MEDCN", "OFF", 2018);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (674, "iname674", "VGTBL", "MIL", 2023);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (675, "iname675", "GROCR", "PRS", 2020);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (676, "iname676", "CONSM", "OFF", 2029);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (677, "iname677", "FASHN", "MIL", 2030);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (678, "iname678", "MEDCN", "PRS", 2027);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (679, "iname679", "VGTBL", "OFF", 2024);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (680, "iname680", "GROCR", "MIL", 2041);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (681, "iname681", "CONSM", "PRS", 2042);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (682, "iname682", "FASHN", "OFF", 2047);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (683, "iname683", "MEDCN", "MIL", 2044);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (684, "iname684", "VGTBL", "PRS", 2037);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (685, "iname685", "GROCR", "OFF", 2038);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (686, "iname686", "CONSM", "MIL", 2035);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (687, "iname687", "FASHN", "PRS", 2032);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (688, "iname688", "MEDCN", "OFF", 2001);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (689, "iname689", "VGTBL", "MIL", 2002);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (690, "iname690", "GROCR", "PRS", 2007);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (691, "iname691", "CONSM", "OFF", 2004);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (692, "iname692", "FASHN", "MIL", 2013);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (693, "iname693", "MEDCN", "PRS", 2014);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (694, "iname694", "VGTBL", "OFF", 2011);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (695, "iname695", "GROCR", "MIL", 2008);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (696, "iname696", "CONSM", "PRS", 1993);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (697, "iname697", "FASHN", "OFF", 1994);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (698, "iname698", "MEDCN", "MIL", 1999);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (699, "iname699", "VGTBL", "PRS", 1996);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (700, "iname700", "GROCR", "OFF", 1989);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (701, "iname701", "CONSM", "MIL", 1990);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (702, "iname702", "FASHN", "PRS", 1987);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (703, "iname703", "MEDCN", "OFF", 1984);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (704, "iname704", "VGTBL", "MIL", 1857);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (705, "iname705", "GROCR", "PRS", 1858);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (706, "iname706", "CONSM", "OFF", 1863);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (707, "iname707", "FASHN", "MIL", 1860);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (708, "iname708", "MEDCN", "PRS", 1869);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (709, "iname709", "VGTBL", "OFF", 1870);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (710, "iname710", "GROCR", "MIL", 1867);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (711, "iname711", "CONSM", "PRS", 1864);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (712, "iname712", "FASHN", "OFF", 1881);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (713, "iname713", "MEDCN", "MIL", 1882);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (714, "iname714", "VGTBL", "PRS", 1887);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (715, "iname715", "GROCR", "OFF", 1884);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (716, "iname716", "CONSM", "MIL", 1877);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (717, "iname717", "FASHN", "PRS", 1878);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (718, "iname718", "MEDCN", "OFF", 1875);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (719, "iname719", "VGTBL", "MIL", 1872);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (720, "iname720", "GROCR", "PRS", 1905);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (721, "iname721", "CONSM", "OFF", 1906);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (722, "iname722", "FASHN", "MIL", 1911);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (723, "iname723", "MEDCN", "PRS", 1908);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (724, "iname724", "VGTBL", "OFF", 1917);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (725, "iname725", "GROCR", "MIL", 1918);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (726, "iname726", "CONSM", "PRS", 1915);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (727, "iname727", "FASHN", "OFF", 1912);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (728, "iname728", "MEDCN", "MIL", 1897);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (729, "iname729", "VGTBL", "PRS", 1898);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (730, "iname730", "GROCR", "OFF", 1903);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (731, "iname731", "CONSM", "MIL", 1900);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (732, "iname732", "FASHN", "PRS", 1893);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (733, "iname733", "MEDCN", "OFF", 1894);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (734, "iname734", "VGTBL", "MIL", 1891);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (735, "iname735", "GROCR", "PRS", 1888);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (736, "iname736", "CONSM", "OFF", 1825);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (737, "iname737", "FASHN", "MIL", 1826);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (738, "iname738", "MEDCN", "PRS", 1831);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (739, "iname739", "VGTBL", "OFF", 1828);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (740, "iname740", "GROCR", "MIL", 1837);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (741, "iname741", "CONSM", "PRS", 1838);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (742, "iname742", "FASHN", "OFF", 1835);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (743, "iname743", "MEDCN", "MIL", 1832);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (744, "iname744", "VGTBL", "PRS", 1849);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (745, "iname745", "GROCR", "OFF", 1850);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (746, "iname746", "CONSM", "MIL", 1855);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (747, "iname747", "FASHN", "PRS", 1852);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (748, "iname748", "MEDCN", "OFF", 1845);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (749, "iname749", "VGTBL", "MIL", 1846);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (750, "iname750", "GROCR", "PRS", 1843);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (751, "iname751", "CONSM", "OFF", 1840);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (752, "iname752", "FASHN", "MIL", 1809);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (753, "iname753", "MEDCN", "PRS", 1810);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (754, "iname754", "VGTBL", "OFF", 1815);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (755, "iname755", "GROCR", "MIL", 1812);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (756, "iname756", "CONSM", "PRS", 1821);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (757, "iname757", "FASHN", "OFF", 1822);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (758, "iname758", "MEDCN", "MIL", 1819);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (759, "iname759", "VGTBL", "PRS", 1816);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (760, "iname760", "GROCR", "OFF", 1801);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (761, "iname761", "CONSM", "MIL", 1802);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (762, "iname762", "FASHN", "PRS", 1807);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (763, "iname763", "MEDCN", "OFF", 1804);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (764, "iname764", "VGTBL", "MIL", 1797);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (765, "iname765", "GROCR", "PRS", 1798);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (766, "iname766", "CONSM", "OFF", 1795);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (767, "iname767", "FASHN", "MIL", 1792);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (768, "iname768", "MEDCN", "PRS", 1281);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (769, "iname769", "VGTBL", "OFF", 1282);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (770, "iname770", "GROCR", "MIL", 1287);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (771, "iname771", "CONSM", "PRS", 1284);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (772, "iname772", "FASHN", "OFF", 1293);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (773, "iname773", "MEDCN", "MIL", 1294);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (774, "iname774", "VGTBL", "PRS", 1291);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (775, "iname775", "GROCR", "OFF", 1288);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (776, "iname776", "CONSM", "MIL", 1305);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (777, "iname777", "FASHN", "PRS", 1306);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (778, "iname778", "MEDCN", "OFF", 1311);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (779, "iname779", "VGTBL", "MIL", 1308);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (780, "iname780", "GROCR", "PRS", 1301);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (781, "iname781", "CONSM", "OFF", 1302);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (782, "iname782", "FASHN", "MIL", 1299);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (783, "iname783", "MEDCN", "PRS", 1296);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (784, "iname784", "VGTBL", "OFF", 1329);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (785, "iname785", "GROCR", "MIL", 1330);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (786, "iname786", "CONSM", "PRS", 1335);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (787, "iname787", "FASHN", "OFF", 1332);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (788, "iname788", "MEDCN", "MIL", 1341);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (789, "iname789", "VGTBL", "PRS", 1342);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (790, "iname790", "GROCR", "OFF", 1339);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (791, "iname791", "CONSM", "MIL", 1336);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (792, "iname792", "FASHN", "PRS", 1321);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (793, "iname793", "MEDCN", "OFF", 1322);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (794, "iname794", "VGTBL", "MIL", 1327);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (795, "iname795", "GROCR", "PRS", 1324);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (796, "iname796", "CONSM", "OFF", 1317);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (797, "iname797", "FASHN", "MIL", 1318);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (798, "iname798", "MEDCN", "PRS", 1315);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (799, "iname799", "VGTBL", "OFF", 1312);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (800, "iname800", "GROCR", "MIL", 1377);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (801, "iname801", "CONSM", "PRS", 1378);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (802, "iname802", "FASHN", "OFF", 1383);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (803, "iname803", "MEDCN", "MIL", 1380);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (804, "iname804", "VGTBL", "PRS", 1389);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (805, "iname805", "GROCR", "OFF", 1390);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (806, "iname806", "CONSM", "MIL", 1387);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (807, "iname807", "FASHN", "PRS", 1384);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (808, "iname808", "MEDCN", "OFF", 1401);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (809, "iname809", "VGTBL", "MIL", 1402);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (810, "iname810", "GROCR", "PRS", 1407);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (811, "iname811", "CONSM", "OFF", 1404);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (812, "iname812", "FASHN", "MIL", 1397);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (813, "iname813", "MEDCN", "PRS", 1398);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (814, "iname814", "VGTBL", "OFF", 1395);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (815, "iname815", "GROCR", "MIL", 1392);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (816, "iname816", "CONSM", "PRS", 1361);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (817, "iname817", "FASHN", "OFF", 1362);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (818, "iname818", "MEDCN", "MIL", 1367);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (819, "iname819", "VGTBL", "PRS", 1364);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (820, "iname820", "GROCR", "OFF", 1373);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (821, "iname821", "CONSM", "MIL", 1374);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (822, "iname822", "FASHN", "PRS", 1371);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (823, "iname823", "MEDCN", "OFF", 1368);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (824, "iname824", "VGTBL", "MIL", 1353);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (825, "iname825", "GROCR", "PRS", 1354);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (826, "iname826", "CONSM", "OFF", 1359);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (827, "iname827", "FASHN", "MIL", 1356);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (828, "iname828", "MEDCN", "PRS", 1349);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (829, "iname829", "VGTBL", "OFF", 1350);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (830, "iname830", "GROCR", "MIL", 1347);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (831, "iname831", "CONSM", "PRS", 1344);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (832, "iname832", "FASHN", "OFF", 1473);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (833, "iname833", "MEDCN", "MIL", 1474);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (834, "iname834", "VGTBL", "PRS", 1479);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (835, "iname835", "GROCR", "OFF", 1476);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (836, "iname836", "CONSM", "MIL", 1485);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (837, "iname837", "FASHN", "PRS", 1486);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (838, "iname838", "MEDCN", "OFF", 1483);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (839, "iname839", "VGTBL", "MIL", 1480);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (840, "iname840", "GROCR", "PRS", 1497);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (841, "iname841", "CONSM", "OFF", 1498);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (842, "iname842", "FASHN", "MIL", 1503);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (843, "iname843", "MEDCN", "PRS", 1500);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (844, "iname844", "VGTBL", "OFF", 1493);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (845, "iname845", "GROCR", "MIL", 1494);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (846, "iname846", "CONSM", "PRS", 1491);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (847, "iname847", "FASHN", "OFF", 1488);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (848, "iname848", "MEDCN", "MIL", 1521);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (849, "iname849", "VGTBL", "PRS", 1522);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (850, "iname850", "GROCR", "OFF", 1527);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (851, "iname851", "CONSM", "MIL", 1524);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (852, "iname852", "FASHN", "PRS", 1533);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (853, "iname853", "MEDCN", "OFF", 1534);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (854, "iname854", "VGTBL", "MIL", 1531);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (855, "iname855", "GROCR", "PRS", 1528);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (856, "iname856", "CONSM", "OFF", 1513);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (857, "iname857", "FASHN", "MIL", 1514);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (858, "iname858", "MEDCN", "PRS", 1519);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (859, "iname859", "VGTBL", "OFF", 1516);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (860, "iname860", "GROCR", "MIL", 1509);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (861, "iname861", "CONSM", "PRS", 1510);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (862, "iname862", "FASHN", "OFF", 1507);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (863, "iname863", "MEDCN", "MIL", 1504);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (864, "iname864", "VGTBL", "PRS", 1441);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (865, "iname865", "GROCR", "OFF", 1442);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (866, "iname866", "CONSM", "MIL", 1447);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (867, "iname867", "FASHN", "PRS", 1444);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (868, "iname868", "MEDCN", "OFF", 1453);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (869, "iname869", "VGTBL", "MIL", 1454);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (870, "iname870", "GROCR", "PRS", 1451);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (871, "iname871", "CONSM", "OFF", 1448);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (872, "iname872", "FASHN", "MIL", 1465);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (873, "iname873", "MEDCN", "PRS", 1466);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (874, "iname874", "VGTBL", "OFF", 1471);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (875, "iname875", "GROCR", "MIL", 1468);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (876, "iname876", "CONSM", "PRS", 1461);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (877, "iname877", "FASHN", "OFF", 1462);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (878, "iname878", "MEDCN", "MIL", 1459);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (879, "iname879", "VGTBL", "PRS", 1456);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (880, "iname880", "GROCR", "OFF", 1425);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (881, "iname881", "CONSM", "MIL", 1426);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (882, "iname882", "FASHN", "PRS", 1431);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (883, "iname883", "MEDCN", "OFF", 1428);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (884, "iname884", "VGTBL", "MIL", 1437);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (885, "iname885", "GROCR", "PRS", 1438);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (886, "iname886", "CONSM", "OFF", 1435);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (887, "iname887", "FASHN", "MIL", 1432);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (888, "iname888", "MEDCN", "PRS", 1417);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (889, "iname889", "VGTBL", "OFF", 1418);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (890, "iname890", "GROCR", "MIL", 1423);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (891, "iname891", "CONSM", "PRS", 1420);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (892, "iname892", "FASHN", "OFF", 1413);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (893, "iname893", "MEDCN", "MIL", 1414);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (894, "iname894", "VGTBL", "PRS", 1411);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (895, "iname895", "GROCR", "OFF", 1408);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (896, "iname896", "CONSM", "MIL", 1153);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (897, "iname897", "FASHN", "PRS", 1154);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (898, "iname898", "MEDCN", "OFF", 1159);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (899, "iname899", "VGTBL", "MIL", 1156);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (900, "iname900", "GROCR", "PRS", 1165);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (901, "iname901", "CONSM", "OFF", 1166);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (902, "iname902", "FASHN", "MIL", 1163);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (903, "iname903", "MEDCN", "PRS", 1160);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (904, "iname904", "VGTBL", "OFF", 1177);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (905, "iname905", "GROCR", "MIL", 1178);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (906, "iname906", "CONSM", "PRS", 1183);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (907, "iname907", "FASHN", "OFF", 1180);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (908, "iname908", "MEDCN", "MIL", 1173);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (909, "iname909", "VGTBL", "PRS", 1174);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (910, "iname910", "GROCR", "OFF", 1171);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (911, "iname911", "CONSM", "MIL", 1168);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (912, "iname912", "FASHN", "PRS", 1201);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (913, "iname913", "MEDCN", "OFF", 1202);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (914, "iname914", "VGTBL", "MIL", 1207);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (915, "iname915", "GROCR", "PRS", 1204);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (916, "iname916", "CONSM", "OFF", 1213);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (917, "iname917", "FASHN", "MIL", 1214);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (918, "iname918", "MEDCN", "PRS", 1211);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (919, "iname919", "VGTBL", "OFF", 1208);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (920, "iname920", "GROCR", "MIL", 1193);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (921, "iname921", "CONSM", "PRS", 1194);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (922, "iname922", "FASHN", "OFF", 1199);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (923, "iname923", "MEDCN", "MIL", 1196);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (924, "iname924", "VGTBL", "PRS", 1189);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (925, "iname925", "GROCR", "OFF", 1190);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (926, "iname926", "CONSM", "MIL", 1187);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (927, "iname927", "FASHN", "PRS", 1184);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (928, "iname928", "MEDCN", "OFF", 1249);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (929, "iname929", "VGTBL", "MIL", 1250);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (930, "iname930", "GROCR", "PRS", 1255);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (931, "iname931", "CONSM", "OFF", 1252);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (932, "iname932", "FASHN", "MIL", 1261);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (933, "iname933", "MEDCN", "PRS", 1262);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (934, "iname934", "VGTBL", "OFF", 1259);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (935, "iname935", "GROCR", "MIL", 1256);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (936, "iname936", "CONSM", "PRS", 1273);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (937, "iname937", "FASHN", "OFF", 1274);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (938, "iname938", "MEDCN", "MIL", 1279);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (939, "iname939", "VGTBL", "PRS", 1276);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (940, "iname940", "GROCR", "OFF", 1269);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (941, "iname941", "CONSM", "MIL", 1270);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (942, "iname942", "FASHN", "PRS", 1267);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (943, "iname943", "MEDCN", "OFF", 1264);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (944, "iname944", "VGTBL", "MIL", 1233);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (945, "iname945", "GROCR", "PRS", 1234);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (946, "iname946", "CONSM", "OFF", 1239);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (947, "iname947", "FASHN", "MIL", 1236);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (948, "iname948", "MEDCN", "PRS", 1245);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (949, "iname949", "VGTBL", "OFF", 1246);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (950, "iname950", "GROCR", "MIL", 1243);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (951, "iname951", "CONSM", "PRS", 1240);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (952, "iname952", "FASHN", "OFF", 1225);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (953, "iname953", "MEDCN", "MIL", 1226);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (954, "iname954", "VGTBL", "PRS", 1231);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (955, "iname955", "GROCR", "OFF", 1228);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (956, "iname956", "CONSM", "MIL", 1221);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (957, "iname957", "FASHN", "PRS", 1222);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (958, "iname958", "MEDCN", "OFF", 1219);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (959, "iname959", "VGTBL", "MIL", 1216);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (960, "iname960", "GROCR", "PRS", 1089);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (961, "iname961", "CONSM", "OFF", 1090);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (962, "iname962", "FASHN", "MIL", 1095);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (963, "iname963", "MEDCN", "PRS", 1092);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (964, "iname964", "VGTBL", "OFF", 1101);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (965, "iname965", "GROCR", "MIL", 1102);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (966, "iname966", "CONSM", "PRS", 1099);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (967, "iname967", "FASHN", "OFF", 1096);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (968, "iname968", "MEDCN", "MIL", 1113);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (969, "iname969", "VGTBL", "PRS", 1114);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (970, "iname970", "GROCR", "OFF", 1119);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (971, "iname971", "CONSM", "MIL", 1116);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (972, "iname972", "FASHN", "PRS", 1109);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (973, "iname973", "MEDCN", "OFF", 1110);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (974, "iname974", "VGTBL", "MIL", 1107);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (975, "iname975", "GROCR", "PRS", 1104);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (976, "iname976", "CONSM", "OFF", 1137);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (977, "iname977", "FASHN", "MIL", 1138);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (978, "iname978", "MEDCN", "PRS", 1143);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (979, "iname979", "VGTBL", "OFF", 1140);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (980, "iname980", "GROCR", "MIL", 1149);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (981, "iname981", "CONSM", "PRS", 1150);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (982, "iname982", "FASHN", "OFF", 1147);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (983, "iname983", "MEDCN", "MIL", 1144);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (984, "iname984", "VGTBL", "PRS", 1129);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (985, "iname985", "GROCR", "OFF", 1130);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (986, "iname986", "CONSM", "MIL", 1135);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (987, "iname987", "FASHN", "PRS", 1132);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (988, "iname988", "MEDCN", "OFF", 1125);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (989, "iname989", "VGTBL", "MIL", 1126);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (990, "iname990", "GROCR", "PRS", 1123);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (991, "iname991", "CONSM", "OFF", 1120);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (992, "iname992", "FASHN", "MIL", 1057);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (993, "iname993", "MEDCN", "PRS", 1058);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (994, "iname994", "VGTBL", "OFF", 1063);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (995, "iname995", "GROCR", "MIL", 1060);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (996, "iname996", "CONSM", "PRS", 1069);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (997, "iname997", "FASHN", "OFF", 1070);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (998, "iname998", "MEDCN", "MIL", 1067);
+INSERT INTO maria_itemdim(icode, iname, category, subcategory, price)
+VALUES (999, "iname999", "VGTBL", "PRS", 1064);

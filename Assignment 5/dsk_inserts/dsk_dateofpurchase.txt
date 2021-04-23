@@ -1,0 +1,2000 @@
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (0, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (1, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (2, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (3, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (4, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (5, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (6, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (7, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (8, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (9, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (10, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (11, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (12, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (13, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (14, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (15, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (16, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (17, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (18, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (19, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (20, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (21, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (22, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (23, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (24, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (25, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (26, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (27, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (28, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (29, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (30, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (31, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (32, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (33, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (34, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (35, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (36, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (37, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (38, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (39, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (40, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (41, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (42, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (43, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (44, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (45, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (46, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (47, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (48, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (49, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (50, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (51, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (52, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (53, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (54, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (55, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (56, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (57, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (58, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (59, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (60, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (61, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (62, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (63, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (64, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (65, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (66, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (67, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (68, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (69, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (70, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (71, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (72, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (73, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (74, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (75, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (76, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (77, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (78, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (79, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (80, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (81, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (82, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (83, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (84, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (85, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (86, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (87, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (88, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (89, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (90, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (91, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (92, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (93, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (94, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (95, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (96, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (97, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (98, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (99, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (100, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (101, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (102, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (103, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (104, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (105, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (106, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (107, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (108, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (109, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (110, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (111, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (112, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (113, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (114, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (115, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (116, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (117, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (118, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (119, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (120, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (121, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (122, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (123, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (124, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (125, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (126, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (127, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (128, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (129, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (130, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (131, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (132, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (133, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (134, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (135, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (136, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (137, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (138, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (139, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (140, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (141, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (142, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (143, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (144, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (145, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (146, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (147, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (148, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (149, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (150, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (151, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (152, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (153, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (154, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (155, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (156, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (157, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (158, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (159, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (160, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (161, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (162, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (163, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (164, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (165, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (166, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (167, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (168, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (169, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (170, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (171, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (172, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (173, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (174, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (175, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (176, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (177, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (178, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (179, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (180, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (181, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (182, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (183, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (184, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (185, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (186, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (187, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (188, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (189, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (190, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (191, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (192, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (193, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (194, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (195, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (196, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (197, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (198, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (199, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (200, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (201, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (202, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (203, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (204, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (205, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (206, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (207, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (208, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (209, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (210, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (211, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (212, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (213, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (214, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (215, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (216, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (217, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (218, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (219, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (220, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (221, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (222, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (223, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (224, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (225, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (226, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (227, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (228, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (229, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (230, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (231, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (232, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (233, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (234, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (235, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (236, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (237, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (238, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (239, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (240, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (241, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (242, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (243, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (244, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (245, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (246, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (247, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (248, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (249, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (250, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (251, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (252, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (253, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (254, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (255, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (256, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (257, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (258, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (259, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (260, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (261, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (262, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (263, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (264, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (265, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (266, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (267, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (268, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (269, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (270, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (271, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (272, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (273, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (274, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (275, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (276, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (277, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (278, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (279, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (280, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (281, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (282, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (283, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (284, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (285, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (286, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (287, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (288, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (289, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (290, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (291, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (292, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (293, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (294, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (295, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (296, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (297, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (298, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (299, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (300, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (301, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (302, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (303, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (304, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (305, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (306, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (307, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (308, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (309, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (310, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (311, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (312, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (313, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (314, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (315, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (316, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (317, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (318, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (319, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (320, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (321, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (322, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (323, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (324, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (325, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (326, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (327, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (328, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (329, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (330, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (331, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (332, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (333, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (334, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (335, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (336, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (337, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (338, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (339, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (340, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (341, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (342, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (343, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (344, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (345, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (346, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (347, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (348, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (349, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (350, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (351, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (352, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (353, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (354, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (355, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (356, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (357, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (358, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (359, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (360, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (361, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (362, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (363, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (364, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (365, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (366, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (367, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (368, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (369, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (370, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (371, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (372, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (373, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (374, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (375, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (376, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (377, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (378, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (379, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (380, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (381, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (382, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (383, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (384, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (385, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (386, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (387, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (388, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (389, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (390, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (391, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (392, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (393, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (394, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (395, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (396, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (397, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (398, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (399, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (400, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (401, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (402, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (403, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (404, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (405, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (406, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (407, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (408, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (409, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (410, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (411, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (412, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (413, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (414, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (415, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (416, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (417, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (418, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (419, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (420, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (421, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (422, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (423, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (424, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (425, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (426, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (427, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (428, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (429, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (430, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (431, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (432, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (433, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (434, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (435, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (436, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (437, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (438, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (439, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (440, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (441, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (442, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (443, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (444, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (445, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (446, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (447, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (448, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (449, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (450, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (451, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (452, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (453, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (454, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (455, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (456, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (457, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (458, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (459, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (460, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (461, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (462, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (463, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (464, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (465, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (466, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (467, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (468, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (469, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (470, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (471, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (472, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (473, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (474, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (475, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (476, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (477, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (478, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (479, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (480, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (481, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (482, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (483, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (484, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (485, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (486, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (487, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (488, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (489, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (490, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (491, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (492, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (493, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (494, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (495, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (496, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (497, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (498, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (499, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (500, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (501, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (502, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (503, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (504, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (505, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (506, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (507, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (508, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (509, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (510, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (511, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (512, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (513, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (514, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (515, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (516, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (517, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (518, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (519, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (520, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (521, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (522, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (523, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (524, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (525, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (526, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (527, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (528, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (529, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (530, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (531, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (532, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (533, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (534, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (535, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (536, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (537, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (538, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (539, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (540, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (541, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (542, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (543, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (544, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (545, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (546, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (547, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (548, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (549, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (550, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (551, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (552, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (553, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (554, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (555, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (556, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (557, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (558, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (559, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (560, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (561, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (562, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (563, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (564, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (565, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (566, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (567, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (568, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (569, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (570, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (571, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (572, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (573, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (574, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (575, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (576, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (577, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (578, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (579, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (580, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (581, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (582, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (583, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (584, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (585, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (586, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (587, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (588, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (589, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (590, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (591, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (592, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (593, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (594, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (595, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (596, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (597, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (598, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (599, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (600, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (601, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (602, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (603, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (604, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (605, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (606, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (607, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (608, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (609, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (610, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (611, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (612, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (613, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (614, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (615, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (616, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (617, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (618, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (619, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (620, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (621, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (622, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (623, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (624, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (625, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (626, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (627, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (628, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (629, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (630, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (631, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (632, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (633, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (634, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (635, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (636, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (637, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (638, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (639, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (640, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (641, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (642, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (643, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (644, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (645, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (646, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (647, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (648, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (649, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (650, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (651, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (652, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (653, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (654, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (655, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (656, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (657, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (658, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (659, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (660, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (661, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (662, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (663, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (664, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (665, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (666, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (667, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (668, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (669, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (670, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (671, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (672, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (673, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (674, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (675, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (676, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (677, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (678, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (679, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (680, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (681, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (682, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (683, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (684, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (685, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (686, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (687, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (688, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (689, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (690, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (691, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (692, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (693, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (694, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (695, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (696, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (697, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (698, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (699, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (700, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (701, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (702, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (703, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (704, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (705, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (706, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (707, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (708, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (709, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (710, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (711, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (712, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (713, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (714, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (715, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (716, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (717, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (718, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (719, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (720, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (721, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (722, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (723, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (724, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (725, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (726, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (727, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (728, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (729, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (730, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (731, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (732, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (733, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (734, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (735, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (736, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (737, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (738, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (739, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (740, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (741, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (742, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (743, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (744, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (745, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (746, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (747, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (748, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (749, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (750, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (751, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (752, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (753, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (754, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (755, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (756, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (757, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (758, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (759, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (760, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (761, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (762, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (763, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (764, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (765, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (766, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (767, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (768, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (769, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (770, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (771, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (772, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (773, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (774, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (775, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (776, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (777, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (778, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (779, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (780, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (781, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (782, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (783, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (784, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (785, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (786, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (787, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (788, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (789, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (790, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (791, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (792, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (793, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (794, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (795, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (796, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (797, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (798, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (799, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (800, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (801, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (802, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (803, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (804, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (805, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (806, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (807, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (808, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (809, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (810, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (811, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (812, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (813, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (814, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (815, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (816, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (817, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (818, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (819, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (820, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (821, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (822, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (823, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (824, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (825, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (826, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (827, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (828, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (829, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (830, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (831, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (832, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (833, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (834, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (835, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (836, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (837, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (838, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (839, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (840, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (841, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (842, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (843, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (844, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (845, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (846, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (847, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (848, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (849, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (850, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (851, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (852, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (853, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (854, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (855, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (856, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (857, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (858, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (859, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (860, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (861, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (862, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (863, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (864, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (865, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (866, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (867, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (868, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (869, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (870, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (871, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (872, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (873, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (874, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (875, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (876, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (877, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (878, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (879, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (880, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (881, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (882, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (883, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (884, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (885, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (886, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (887, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (888, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (889, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (890, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (891, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (892, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (893, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (894, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (895, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (896, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (897, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (898, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (899, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (900, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (901, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (902, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (903, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (904, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (905, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (906, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (907, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (908, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (909, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (910, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (911, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (912, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (913, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (914, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (915, "2018-04-20", "FRI", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (916, "2019-05-21", "TUE", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (917, "2020-06-22", "MON", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (918, "2015-07-23", "THU", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (919, "2016-08-24", "WED", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (920, "2017-09-25", "MON", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (921, "2018-10-26", "FRI", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (922, "2019-11-27", "WED", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (923, "2020-12-28", "MON", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (924, "2015-01-01", "THU", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (925, "2016-02-02", "TUE", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (926, "2017-03-03", "FRI", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (927, "2018-04-04", "WED", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (928, "2019-05-05", "SUN", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (929, "2020-06-06", "SAT", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (930, "2015-07-07", "TUE", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (931, "2016-08-08", "MON", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (932, "2017-09-09", "SAT", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (933, "2018-10-10", "WED", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (934, "2019-11-11", "MON", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (935, "2020-12-12", "SAT", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (936, "2015-01-13", "TUE", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (937, "2016-02-14", "SUN", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (938, "2017-03-15", "WED", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (939, "2018-04-16", "MON", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (940, "2019-05-17", "FRI", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (941, "2020-06-18", "THU", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (942, "2015-07-19", "SUN", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (943, "2016-08-20", "SAT", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (944, "2017-09-21", "THU", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (945, "2018-10-22", "MON", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (946, "2019-11-23", "SAT", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (947, "2020-12-24", "THU", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (948, "2015-01-25", "SUN", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (949, "2016-02-26", "FRI", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (950, "2017-03-27", "MON", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (951, "2018-04-28", "SAT", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (952, "2019-05-01", "WED", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (953, "2020-06-02", "TUE", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (954, "2015-07-03", "FRI", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (955, "2016-08-04", "THU", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (956, "2017-09-05", "TUE", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (957, "2018-10-06", "SAT", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (958, "2019-11-07", "THU", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (959, "2020-12-08", "TUE", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (960, "2015-01-09", "FRI", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (961, "2016-02-10", "WED", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (962, "2017-03-11", "SAT", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (963, "2018-04-12", "THU", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (964, "2019-05-13", "MON", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (965, "2020-06-14", "SUN", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (966, "2015-07-15", "WED", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (967, "2016-08-16", "TUE", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (968, "2017-09-17", "SUN", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (969, "2018-10-18", "THU", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (970, "2019-11-19", "TUE", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (971, "2020-12-20", "SUN", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (972, "2015-01-21", "WED", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (973, "2016-02-22", "MON", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (974, "2017-03-23", "THU", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (975, "2018-04-24", "TUE", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (976, "2019-05-25", "SAT", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (977, "2020-06-26", "FRI", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (978, "2015-07-27", "MON", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (979, "2016-08-28", "SUN", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (980, "2017-09-01", "FRI", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (981, "2018-10-02", "TUE", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (982, "2019-11-03", "SUN", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (983, "2020-12-04", "FRI", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (984, "2015-01-05", "MON", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (985, "2016-02-06", "SAT", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (986, "2017-03-07", "TUE", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (987, "2018-04-08", "SUN", "APR", "Q2", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (988, "2019-05-09", "THU", "MAY", "Q2", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (989, "2020-06-10", "WED", "JUN", "Q2", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (990, "2015-07-11", "SAT", "JUL", "Q3", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (991, "2016-08-12", "FRI", "AUG", "Q3", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (992, "2017-09-13", "WED", "SEP", "Q3", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (993, "2018-10-14", "SUN", "OCT", "Q4", 2018);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (994, "2019-11-15", "FRI", "NOV", "Q4", 2019);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (995, "2020-12-16", "WED", "DEC", "Q4", 2020);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (996, "2015-01-17", "SAT", "JAN", "Q1", 2015);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (997, "2016-02-18", "THU", "FEB", "Q1", 2016);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (998, "2017-03-19", "SUN", "MAR", "Q1", 2017);
+INSERT INTO dsk_dateofpurchase(dcode, purchasedate, dayoftheweek, month, quarter, year)
+VALUES (999, "2018-04-20", "FRI", "APR", "Q2", 2018);

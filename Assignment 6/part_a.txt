@@ -1,0 +1,6 @@
+db.tutorial.aggregate([ {$match:{$and:[{'place.country_code':{$ne:null}},{'place.country_code':{$ne:""}}]}}, {$group:{_id:'$place.country_code',number_of_tweets:{$sum:1}}}, {$sort: {'number_of_tweets':-1}} ])
+
+db.tutorial.aggregate([ {$match:{$and:[{'place.country_code':{$ne:null}},{'place.country_code':{$ne:""}}]}}, {$group:{_id:{country_code:'$place.country_code',lang:'$lang'},number_of_tweets:{$sum:1}}}, {$group:{_id:'$_id.country_code',number_of_tweets_in_lang:{$max:'$number_of_tweets'}}},{$sort: {'number_of_tweets_in_lang':-1}} ])
+
+db.tutorial.aggregate([ {$match: {'created_at_iso':{$gte:ISODate('2016-01-01')}}}, {$group: {_id:'$user.id', num_tweets:{$sum:1}}}, {$match: {$and:[{'num_tweets':{$gt:1}},{'num_tweets':{$lt:5}}]}}, {$sort:{'num_tweets':-1}} ])
+
